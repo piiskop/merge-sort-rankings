@@ -241,6 +241,14 @@ $matches = array (
 		'winner' => 'Erik',
 		'looser' => 'Indrek Jakobson'
 	),
+	// HaValÜTeK SeTt 2019
+	/*
+	 * A: peacecop kalmer: / Aare Halliko
+	 */
+	array (
+		'winner' => 'Aare Halliko',
+		'looser' => 'peacecop kalmer:'
+	),
 );
 
 $mergeSortChart = new MergeSortChart ();
