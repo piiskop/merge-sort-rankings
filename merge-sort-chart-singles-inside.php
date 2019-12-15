@@ -241,13 +241,27 @@ $matches = array (
 		'winner' => 'Erik',
 		'looser' => 'Indrek Jakobson'
 	),
+	array (
+		'winner' => 'Indrek Pajuste',
+		'looser' => 'Gerd Eston Sepp'
+	),
 	// HaValÜTeK SeTt 2019
 	/*
 	 * A: peacecop kalmer: / Aare Halliko
+	 * A: Kaie Kree / Relika Aruoja
+	 * A: Indrek Pajuste / Gerd Eston Sepp
 	 */
 	array (
 		'winner' => 'Aare Halliko',
 		'looser' => 'peacecop kalmer:'
+	),
+	array (
+		'winner' => 'Relika Aruoja Aruoja',
+		'looser' => 'Kaie Kree'
+	),
+	array (
+		'winner' => 'Indrek Pajuste',
+		'looser' => 'Gerd Eston Sepp'
 	),
 );
 
