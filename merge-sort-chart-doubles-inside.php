@@ -124,7 +124,15 @@ $matches = array (
 	array (
 			'winner' => 'Indrek Jakobson / peacecop kalmer:',
 			'looser' => 'Erik - georg kangur'
-		)
+		),
+	// HaValPaTeK 2019
+	/*
+	 * A: Relika Aruoja Aruoja - Siim Simson / peacecop kalmer: - Aet Neering
+	 */
+	array (
+		'winner' => 'peacecop kalmer: - Aet Neering',
+		'looser' => 'Relika Aruoja Aruoja - Siim Simson'
+	)
 );
 
 $mergeSortChart = new MergeSortChart ();

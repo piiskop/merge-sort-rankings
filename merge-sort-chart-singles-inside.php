@@ -263,6 +263,22 @@ $matches = array (
 		'winner' => 'Indrek Pajuste',
 		'looser' => 'Gerd Eston Sepp'
 	),
+	array (
+		'winner' => 'Siim Simson',
+		'looser' => 'Indrek Pajuste'
+	),
+	array (
+		'winner' => 'peacecop kalmer:',
+		'looser' => 'Siim Simson'
+	),
+	array (
+		'winner' => 'Aet Neering',
+		'looser' => 'Relika Aruoja Aruoja'
+	),
+	array (
+		'winner' => 'Gerd Eston Sepp',
+		'looser' => 'Aet Neering'
+	),
 );
 
 $mergeSortChart = new MergeSortChart ();
