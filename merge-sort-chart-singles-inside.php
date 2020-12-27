@@ -69,7 +69,7 @@ $matches = array (
 		'winner' => 'Marek',
 		'looser' => 'Genadi Nikolajev'
 	),
-	// HaValÜTeK SeTt 2015
+	// HaValÜTeK SeTt 2015 - 20 mängu
 	/*
 	 * R: kalmer / boris
 	 * R: kalmer / rainer
@@ -92,10 +92,12 @@ $matches = array (
 	 * P: tarmo / per
 	 * D: tarmo / georg
 	 */
+	// 6 - 1 mäng
 	array (
 		'winner' => 'boris',
 		'looser' => 'peacecop kalmer:'
 	),
+	// 8 - 3 mängu
 	array (
 		'winner' => 'peacecop kalmer:',
 		'looser' => 'rainer'
@@ -108,18 +110,22 @@ $matches = array (
 		'winner' => 'peacecop kalmer:',
 		'looser' => 'Indrek Pajuste'
 	),
+	// 10 - 1 mäng
 	array (
 		'winner' => 'Indrek Pajuste',
 		'looser' => 'Illimar Sööt'
 	),
+	// 12 - 1 mäng
 	array (
 		'winner' => 'Illimar Sööt',
 		'looser' => 'georg kangur'
 	),
+	// 14 - 1 mäng
 	array (
 		'winner' => 'peacecop kalmer:',
 		'looser' => 'tarmo'
 	),
+	// 15 - 2 mängu
 	array (
 		'winner' => 'rainer',
 		'looser' => 'Illimar Sööt'
@@ -128,18 +134,22 @@ $matches = array (
 		'winner' => 'Indrek Pajuste',
 		'looser' => 'rainer'
 	),
+	// 16 - 1 mäng
 	array (
 		'winner' => 'tarmo',
 		'looser' => 'rainer'
 	),
+	// 17 - 1 mäng
 	array (
 		'winner' => 'tarmo',
 		'looser' => 'Indrek Pajuste'
 	),
+	// 19 - 1 mäng
 	array (
 		'winner' => 'georg kangur',
 		'looser' => 'külli'
 	),
+	// 20 - 3 mängu
 	array (
 		'winner' => 'georg kangur',
 		'looser' => 'Indrek Pajuste'
@@ -152,14 +162,17 @@ $matches = array (
 		'winner' => 'pentti',
 		'looser' => 'peacecop kalmer:'
 	),
+	// 21 - 1 mäng
 	array (
 		'winner' => 'boris',
 		'looser' => 'pentti'
 	),
+	// 23 - 1 mäng
 	array (
 		'winner' => 'boris',
 		'looser' => 'peacecop kalmer:'
 	),
+	// 27 - 2 mängu
 	array (
 		'winner' => 'per',
 		'looser' => 'rainer'
@@ -168,6 +181,7 @@ $matches = array (
 		'winner' => 'tarmo',
 		'looser' => 'per'
 	),
+	// 30 - 1 mäng
 	array (
 		'winner' => 'tarmo',
 		'looser' => 'georg kangur'

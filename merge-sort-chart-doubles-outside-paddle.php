@@ -20,27 +20,85 @@ $matches = array (
 		// 25 - 6 mängu
 		array (
 				'winner' => 'Oleg + Reet',
-				'looser' => 'Riina + peacecop kalmer:'
+				'looser' => 'riina + peacecop kalmer:'
 		),
 		array (
 				'winner' => 'Evelyn + Jakov',
-				'looser' => 'Aivar + Riina'
+				'looser' => 'aivar + riina'
 		),
 		array (
-				'winner' => 'Ahto Klaos + Riina',
+				'winner' => 'Klaos + riina',
 				'looser' => 'Kristiina + Reet Rätsep'
 		),
 		array (
 				'winner' => 'Kent + Toivo',
-				'looser' => 'Ahto Klaos + Aivar'
+				'looser' => 'Klaos + aivar'
 		),
 		array (
-				'winner' => 'Ahto Klaos + Evelyn',
-				'looser' => 'Kristiina + Riina'
+				'winner' => 'Klaos + Evelyn',
+				'looser' => 'kristiina + riina'
 		),
 		array (
-				'winner' => 'Ahto Klaos + Toivo',
-				'looser' => 'Aivar + Marju'
+				'winner' => 'Klaos + Toivo',
+				'looser' => 'aivar + Marju'
+		),
+		// 2015
+		// 30 - 14 mängu
+		array (
+				'winner' => 'peacecop kalmer: + stranberg',
+				'looser' => 'oliver + per'
+		),
+		array (
+				'winner' => 'helena + tarvo',
+				'looser' => 'kristi + kristiina'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + stranberg',
+				'looser' => 'helena + tarvo'
+		),
+		array (
+				'winner' => 'oliver + per',
+				'looser' => 'helena + tarvo'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + stranberg',
+				'looser' => 'kristi + kristiina'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + stranberg',
+				'looser' => 'ants + illimar'
+		),
+		array (
+				'winner' => 'oliver + per',
+				'looser' => 'ants + illimar'
+		),
+		array (
+				'winner' => 'ants + illimar',
+				'looser' => 'helena + tarvo'
+		),
+		array (
+				'winner' => 'ants + illimar',
+				'looser' => 'kristi + kristiina'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + stranberg',
+				'looser' => 'marko + meelis'
+		),
+		array (
+				'winner' => 'oliver + per',
+				'looser' => 'marko + meelis'
+		),
+		array (
+				'winner' => 'ants + illimar',
+				'looser' => 'marko + meelis'
+		),
+		array (
+				'winner' => 'marko + meelis',
+				'looser' => 'helena + tarvo'
+		),
+		array (
+				'winner' => 'kristi + kristiina',
+				'looser' => 'marko + meelis'
 		),
 );
 

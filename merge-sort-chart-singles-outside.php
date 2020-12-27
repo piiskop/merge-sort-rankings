@@ -529,11 +529,13 @@ $matches = array (
 				'winner' => 'Pajuste',
 				'looser' => 'illimar'
 		),
-		// 2015
+		// 2015 - 67 mängu
+		// 0806 - 1 mäng
 		array (
 				'winner' => 'rainer',
 				'looser' => 'illimar'
 		),
+		// 0807 - 6 mängu
 		array (
 				'winner' => 'tarmo',
 				'looser' => 'rainer'
@@ -558,10 +560,12 @@ $matches = array (
 				'winner' => 'stiina',
 				'looser' => 'ülle'
 		),
+		// 0808 - 1 mäng
 		array (
 				'winner' => 'riina',
 				'looser' => 'helena'
 		),
+		// 0809 - 5 mängu
 		array (
 				'winner' => 'boris',
 				'looser' => 'aivar'
@@ -582,10 +586,12 @@ $matches = array (
 				'winner' => 'kristi',
 				'looser' => 'helena'
 		),
+		// 0811 - 1 mäng
 		array (
 				'winner' => 'ranno',
 				'looser' => 'tarmo'
 		),
+		// 0813 - 3 mängu
 		array (
 				'winner' => 'ranno',
 				'looser' => 'per'
@@ -598,10 +604,12 @@ $matches = array (
 				'winner' => 'kristiina',
 				'looser' => 'stiina'
 		),
+		// 0814 - 1 mäng
 		array (
 				'winner' => 'genadi',
 				'looser' => 'aivar'
 		),
+		// 0815 - 3 mängu
 		array (
 				'winner' => 'kalmer',
 				'looser' => 'boris'
@@ -614,6 +622,7 @@ $matches = array (
 				'winner' => 'indrek',
 				'looser' => 'rando'
 		),
+		// 0816 - 5 mängu
 		array (
 				'winner' => 'per',
 				'looser' => 'genadi'
@@ -634,6 +643,7 @@ $matches = array (
 				'winner' => 'ivar',
 				'looser' => 'indrek'
 		),
+		// 0817 - 4 mängu
 		array (
 				'winner' => 'tarmo',
 				'looser' => 'per'
@@ -650,6 +660,7 @@ $matches = array (
 				'winner' => 'kristiina',
 				'looser' => 'janelle'
 		),
+		// 0818 - 3 mängu
 		array (
 				'winner' => 'indrek',
 				'looser' => 'illimar'
@@ -662,6 +673,7 @@ $matches = array (
 				'winner' => 'külli',
 				'looser' => 'janelle'
 		),
+		// 0819 - 7 mängu
 		array (
 				'winner' => 'kaie',
 				'looser' => 'helena'
@@ -690,6 +702,7 @@ $matches = array (
 				'winner' => 'stiina',
 				'looser' => 'külli'
 		),
+		// 0820 - 5 mängu
 		array (
 				'winner' => 'aivar',
 				'looser' => 'ahto'
@@ -710,10 +723,12 @@ $matches = array (
 				'winner' => 'genadi',
 				'looser' => 'indrek'
 		),
+		// 0822 - 1 mäng
 		array (
 				'winner' => 'boris',
 				'looser' => 'priit'
 		),
+		// 0823 - 4 mängu
 		array (
 				'winner' => 'ville',
 				'looser' => 'illimar'
@@ -730,10 +745,12 @@ $matches = array (
 				'winner' => 'kalmer',
 				'looser' => 'tarmo'
 		),
+		// 0824 - 1 mäng
 		array (
 				'winner' => 'katrin',
 				'looser' => 'riina'
 		),
+		// 0825 - 2 mängu
 		array (
 				'winner' => 'kristjan',
 				'looser' => 'ivar'
@@ -742,24 +759,28 @@ $matches = array (
 				'winner' => 'priit',
 				'looser' => 'indrek'
 		),
+		// 0826
 // See mäng jäi pooleli ja jätkus hiljem.
 // 		array (
 // 				'winner' => 'illimar',
 // 				'looser' => 'rando'
 // 		),
+		// 0827 - 1 mäng
 		array (
 				'winner' => 'boris',
 				'looser' => 'tarmo'
 		),
-// See mäng jäi taas pooleli.
+// See mäng jäi taas pooleli. Aga millal?
 // 		array (
 // 				'winner' => 'illimar',
 // 				'looser' => 'rando'
 // 		),
+		// 0828 - 1 mäng
 		array (
 				'winner' => 'ahto',
 				'looser' => 'illimar'
 		),
+		// 0830 - 2 mängu
 		array (
 				'winner' => 'illimar',
 				'looser' => 'stiina'
@@ -768,15 +789,17 @@ $matches = array (
 				'winner' => 'kristiina',
 				'looser' => 'indrek'
 		),
+		// 0831 - 1 mäng
 		array (
 				'winner' => 'aivar',
 				'looser' => 'kristiina'
 		),
+		// 0903 - 3 mängu
 		array (
 				'winner' => 'janelle',
 				'looser' => 'katrin'
 		),
-		array (
+		array ( // ?
 				'winner' => 'illimar',
 				'looser' => 'rando'
 		),
@@ -784,6 +807,7 @@ $matches = array (
 				'winner' => 'rando',
 				'looser' => 'stiina'
 		),
+		// 0904 - 2 mängu
 		array (
 				'winner' => 'ville',
 				'looser' => 'stiina'
@@ -792,10 +816,12 @@ $matches = array (
 				'winner' => 'priit',
 				'looser' => 'per'
 		),
+		// 0906 - 1 mäng
 		array (
 				'winner' => 'kalmer',
 				'looser' => 'indrek'
 		),
+		// 0907 - 2 mängu
 		array (
 				'winner' => 'kalmer',
 				'looser' => 'kristjan'
@@ -804,6 +830,7 @@ $matches = array (
 				'winner' => 'kalmer',
 				'looser' => 'kristjan'
 		),
+		// 0910 - 1 mäng
 		array (
 				'winner' => 'boris',
 				'looser' => 'indrek'

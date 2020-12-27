@@ -54,7 +54,7 @@ $matches = array (
 		'winner' => 'Illimar Sööt - peacecop kalmer:',
 		'looser' => 'Oliver - Per'
 	),
-	// HaValÜTeK SeTt 2015
+	// HaValÜTeK SeTt 2015 - 10 mängu
 	/*
 	 * O: boris - kaie / kalmer - helena
 	 * R: tarmo - pentti / kalmer - illimar
@@ -66,22 +66,32 @@ $matches = array (
 	 * A: kalmer - illimar / rainer - per
 	 * P: pentti - palmsaar / per - rainer
 	 */
+	// 07 - 1 mäng
 	array (
 		'winner' => 'boris - kaie',
 		'looser' => 'kalmer - helena'
 	),
+	// 13 - 1 mäng
 	array (
 		'winner' => 'pentti - palmsaar',
-		'looser' => 'Illimar Sööt - peacecop kalmer:'
+		'looser' => 'illimar - peacecop kalmer:'
 	),
+	// 14 - 1 mäng
 	array (
 		'winner' => 'illimar - külli',
 		'looser' => 'kalmer - helena'
 	),
+	// 18 - 1 mäng
+	array (
+		'winner' => 'boris',
+		'looser' => 'illimar - kaie'
+	),
+	// 19 - 1 mäng
 	array (
 		'winner' => 'rainer - riina',
 		'looser' => 'boris - kaie'
 	),
+	// 20 - 2 mängu
 	array (
 		'winner' => 'illimar - külli',
 		'looser' => 'rainer - riina'
@@ -90,10 +100,12 @@ $matches = array (
 		'winner' => 'helena - külli',
 		'looser' => 'riina - kaie'
 	),
+	// 21 - 1 mäng
 	array (
 		'winner' => 'Illimar Sööt - peacecop kalmer:',
 		'looser' => 'georg - boris'
 	),
+	// 27 - 2 mängu
 	array (
 		'winner' => 'per - rainer',
 		'looser' => 'Illimar Sööt - peacecop kalmer:'

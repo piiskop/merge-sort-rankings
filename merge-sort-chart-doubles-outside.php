@@ -318,7 +318,7 @@ $matches = array (
 		// 4 - 2 mängu
 		array (
 				'winner' => 'Kristjan Viilmann + peacecop kalmer:',
-				'looser' => 'Klaos + Ville'
+				'looser' => 'Klaos + ville'
 		),
 		array (
 				'winner' => 'Peeter + Sten',
@@ -327,51 +327,59 @@ $matches = array (
 		// 5 - 1 mäng
 		array (
 				'winner' => 'Kristjan Viilmann + peacecop kalmer:',
-				'looser' => 'Artur + Priit'
+				'looser' => 'Artur + Sarapuu'
+		),
+		// 2015 - 11 mängu
+		// 0809 - 1 mäng
+		array (
+				'winner' => 'illimar + peacecop kalmer:',
+				'looser' => 'rainer + ville'
+		),
+		// 0813 - 1 mäng
+		array (
+				'winner' => 'oliver + per',
+				'looser' => 'illimar + peacecop kalmer:'
+		),
+		// 0816 - 3 mängu
+		array (
+				'winner' => 'aivar + kristiina',
+				'looser' => 'kaie + peacecop kalmer:'
 		),
 		array (
-				'winner' => 'stiina',
-				'looser' => 'külli'
+				'winner' => 'kaie + peacecop kalmer:',
+				'looser' => 'illimar + riina'
 		),
 		array (
-				'winner' => 'aivar',
-				'looser' => 'ahto'
+				'winner' => 'illimar + riina',
+				'looser' => 'helena + ville'
+		),
+		// 0819 - 1 mäng
+		array (
+				'winner' => 'külli + rainer',
+				'looser' => 'helena + ville'
+		),
+		// 0821 - 2 mängu
+		array (
+				'winner' => 'kaie + peacecop kalmer:',
+				'looser' => 'külli + rainer'
 		),
 		array (
-				'winner' => 'boris',
-				'looser' => 'genadi'
+				'winner' => 'külli + rainer',
+				'looser' => 'kaie + peacecop kalmer:'
+		),
+		// 0903 - 1 mäng
+		array (
+				'winner' => 'kaie + külli',
+				'looser' => 'helena + kristiina'
+		),
+		// 0906 - 2 mängu
+		array (
+				'winner' => 'helena + kristiina',
+				'looser' => 'janelle + riina'
 		),
 		array (
-				'winner' => 'stiina',
-				'looser' => 'katrin'
-		),
-		array (
-				'winner' => 'ivar',
-				'looser' => 'kalmer'
-		),
-		array (
-				'winner' => 'genadi',
-				'looser' => 'indrek'
-		),
-		array (
-				'winner' => 'boris',
-				'looser' => 'priit'
-		),
-		array (
-				'winner' => 'ville',
-				'looser' => 'illimar'
-		),
-		array (
-				'winner' => 'aivar',
-				'looser' => 'indrek'
-		),
-		array (
-				'winner' => 'kristi',
-				'looser' => 'kaie'
-		),
-		array (
-				'winner' => 'kalmer',
-				'looser' => 'tarmo'
+				'winner' => 'külli + rainer',
+				'looser' => 'aivar + kristiina'
 		),
 		array (
 				'winner' => 'katrin',
