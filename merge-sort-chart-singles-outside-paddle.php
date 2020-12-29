@@ -102,6 +102,48 @@ $matches = array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'helena'
 		),
+		// 2016 - 10 mängu
+		// 24 - 10 mängu
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'illimar'
+		),
+		array (
+				'winner' => 'marje',
+				'looser' => 'boris'
+		),
+		array (
+				'winner' => 'boris',
+				'looser' => 'illimar'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'boris'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'marje'
+		),
+		array (
+				'winner' => 'marje',
+				'looser' => 'illimar'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'ottomar'
+		),
+		array (
+				'winner' => 'ottomar',
+				'looser' => 'marje'
+		),
+		array (
+				'winner' => 'ottomar',
+				'looser' => 'boris'
+		),
+		array (
+				'winner' => 'ottomar',
+				'looser' => 'illimar'
+		),
 );
 
 $mergeSortChart = new MergeSortChart ();

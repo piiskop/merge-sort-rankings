@@ -114,28 +114,36 @@ $matches = array (
 		'winner' => 'pentti - palmsaar',
 		'looser' => 'per - rainer'
 	),
-	// HaValPaTeK 2018
+	// HaValPaTeK 2018 - 5 mängu
 	/*
 	 * D: eerik - georg kangur / Relika Aruoja Aruoja - Siim Simson
 	 * D: Erik - georg kangur / Kaie Kree - peacecop kalmer:
 	 * D: Erik - georg / Indrek Jakobson - kalmer:
 	 * D: georg kangur - Indrek Jakobson / kalmer
 	 */
-	array (
+	// 1110 - 1 mäng
+	array ( // See mäng toimus ilmselt siis või nädal varem "Idakeskuses".
 			'winner' => 'Illimar Sööt - peacecop kalmer:',
 			'looser' => 'Erik - georg kangur'
 		),
+	// 1201 - 1 mäng
 	array (
 			'winner' => 'Erik - georg kangur',
 			'looser' => 'Relika Aruoja Aruoja - Siim Simson'
 		),
+	// 1215 - 1 mäng
 	array (
 			'winner' => 'Kaie Kree - peacecop kalmer:',
 			'looser' => 'Erik - georg kangur'
 		),
+	// 1222 - 2 mängu
 	array (
 			'winner' => 'Indrek Jakobson / peacecop kalmer:',
 			'looser' => 'Erik - georg kangur'
+		),
+	array (
+			'winner' => 'peacecop kalmer:',
+			'looser' => 'Jakobson - georg kangur'
 		),
 	// HaValPaTeK 2019
 	/*

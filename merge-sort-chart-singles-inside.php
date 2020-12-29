@@ -186,7 +186,7 @@ $matches = array (
 		'winner' => 'tarmo',
 		'looser' => 'georg kangur'
 	),
-	// HaValÜTeK SeTt 2018
+	// HaValÜTeK SeTt 2018 - 14 mängu
 	/*
 	 * O: peacecop kalmer: / Indrek Pajuste
 	 * O: Gerd Eston Sepp / Siim Simson
@@ -203,10 +203,12 @@ $matches = array (
 	 * D: Erik / Indrek Jakobson
 	 * P: Gerd Eston Sepp / Indrek Pajuste
 	 */
-	array (
+	// 1110 - 1 mäng
+	array ( // Selle mängu mängisime vist sel päeval või nädal varem "Idakeskuses"
 		'winner' => 'peacecop kalmer:',
 		'looser' => 'Erik'
 	),
+	// 1124 - 2 mängu
 	array (
 		'winner' => 'peacecop kalmer:',
 		'looser' => 'Indrek Pajuste'
@@ -215,34 +217,42 @@ $matches = array (
 		'winner' => 'Siim Simson',
 		'looser' => 'Gerd Eston Sepp'
 	),
+	// 1125 - 1 mäng
 	array (
 		'winner' => 'Gerd Eston Sepp',
 		'looser' => 'Relika Aruoja Aruoja'
 	),
+	// 1130 - 1 mäng
 	array (
 		'winner' => 'Illimar Sööt',
 		'looser' => 'Indrek Pajuste'
 	),
+	// 1201 - 1 mäng
 	array (
 		'winner' => 'Erik',
 		'looser' => 'georg kangur'
 	),
+	// 1202 - 1 mäng
 	array (
 		'winner' => 'Relika Aruoja Aruoja',
 		'looser' => 'Kaie Kree'
 	),
+	// 1215 - 1 mäng
 	array (
 		'winner' => 'Siim Simson',
 		'looser' => 'Indrek Pajuste'
 	),
+	// 1215 - 1 mäng
 	array (
 		'winner' => 'Siim Simson',
 		'looser' => 'Illimar Sööt'
 	),
+	// 1218 - 1 mäng
 	array (
 		'winner' => 'Indrek Jakobson',
 		'looser' => 'Indrek Pajuste'
 	),
+	// 1222 - 3 mängu
 	array (
 		'winner' => 'Illimar Sööt',
 		'looser' => 'Indrek Jakobson'
@@ -255,6 +265,7 @@ $matches = array (
 		'winner' => 'Erik',
 		'looser' => 'Indrek Jakobson'
 	),
+	// 1223 - 1 mäng
 	array (
 		'winner' => 'Indrek Pajuste',
 		'looser' => 'Gerd Eston Sepp'

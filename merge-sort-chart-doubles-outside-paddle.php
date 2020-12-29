@@ -42,7 +42,7 @@ $matches = array (
 				'winner' => 'Klaos + Toivo',
 				'looser' => 'aivar + Marju'
 		),
-		// 2015
+		// 2015 - 14 mängu
 		// 30 - 14 mängu
 		array (
 				'winner' => 'peacecop kalmer: + stranberg',
@@ -99,6 +99,42 @@ $matches = array (
 		array (
 				'winner' => 'kristi + kristiina',
 				'looser' => 'marko + meelis'
+		),
+		// 2016 - 5 mängu
+		// 24 - 5 mängu
+		array (
+				'winner' => 'ottomar + taku',
+				'looser' => 'boris + peacecop kalmer:'
+		),
+		array (
+				'winner' => 'boris + ottomar',
+				'looser' => 'marje + peacecop kalmer:'
+		),
+		array (
+				'winner' => 'ottomar + peacecop kalmer:',
+				'looser' => 'marje + taku'
+		),
+		array (
+				'winner' => 'marje + ottomar',
+				'looser' => 'boris + taku'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'boris + marje'
+		),
+		// 2018 - 3 mängu
+		// 29 - 3 mängu
+		array (
+				'winner' => 'oliver koel + peacecop kalmer:',
+				'looser' => 'Merike + Tiit'
+		),
+		array (
+				'winner' => 'Merike + Tiit',
+				'looser' => 'Kristiina + taku'
+		),
+		array (
+				'winner' => 'oliver koel + peacecop kalmer:',
+				'looser' => 'Kristiina + taku'
 		),
 );
 

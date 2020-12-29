@@ -381,200 +381,172 @@ $matches = array (
 				'winner' => 'külli + rainer',
 				'looser' => 'aivar + kristiina'
 		),
+		// 2016 - 9 mängu
+		// 808 - 1 mäng
 		array (
-				'winner' => 'katrin',
-				'looser' => 'riina'
+				'winner' => 'illimar + peacecop kalmer:',
+				'looser' => 'oliver + per'
+		),
+		// 809 - 1 mäng
+		array (
+				'winner' => 'kaie + peacecop kalmer:',
+				'looser' => 'illimar + riina'
+		),
+		// 814 - 2 mängu
+		array (
+				'winner' => 'illimar + peacecop kalmer:',
+				'looser' => 'boris + marje'
 		),
 		array (
-				'winner' => 'kristjan',
-				'looser' => 'ivar'
+				'winner' => 'kaie + peacecop kalmer:',
+				'looser' => 'boris + marje'
+		),
+		// 821 - 1 mäng
+		array (
+				'winner' => 'kaie + peacecop kalmer:',
+				'looser' => 'merje + per'
+		),
+		// 831 - 1 mäng
+		array (
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'merje + per'
+		),
+		// 901 - 1 mäng
+		array (
+				'winner' => 'boris + marje',
+				'looser' => 'merje + per'
+		),
+		// 907 - 1 mäng
+		array (
+				'winner' => 'riina + taku',
+				'looser' => 'kaie + kairi'
+		),
+		// 924 - 1 mäng
+		array (
+				'winner' => 'boris + marje',
+				'looser' => 'riina + taku'
+		),
+		// 2018 - 25 mängu
+		// 805 - 2 mängu
+		array (
+				'winner' => 'Evelin + Peeter',
+				'looser' => 'Helena + Jakobson'
 		),
 		array (
-				'winner' => 'priit',
-				'looser' => 'indrek'
+				'winner' => 'Evelin + Peeter',
+				'looser' => 'Mairi + Tarvo'
 		),
-// See mäng jäi pooleli ja jätkus hiljem.
-// 		array (
-// 				'winner' => 'illimar',
-// 				'looser' => 'rando'
-// 		),
+		// 807 - 1 mäng
 		array (
-				'winner' => 'boris',
-				'looser' => 'tarmo'
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'Gerd + Janar'
 		),
-// See mäng jäi taas pooleli.
-// 		array (
-// 				'winner' => 'illimar',
-// 				'looser' => 'rando'
-// 		),
+		// 809 - 1 mäng
 		array (
-				'winner' => 'ahto',
-				'looser' => 'illimar'
+				'winner' => 'Toivo + erki',
+				'looser' => 'Evelin + Peeter'
+		),
+		// 813 - 2 mängu
+		array (
+				'winner' => 'Toivo + erki',
+				'looser' => 'peacecop kalmer: + taku'
 		),
 		array (
-				'winner' => 'illimar',
-				'looser' => 'stiina'
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'Toivo + erki'
+		),
+		// 814 - 1 mäng
+		array (
+				'winner' => 'Per + helena',
+				'looser' => 'relika + siim'
+		),
+		// 815 - 1 mäng
+		array (
+				'winner' => 'Merike + Tiit',
+				'looser' => 'relika + siim'
+		),
+		// 816 - 1 mäng
+		array (
+				'winner' => 'Gerd + Janar',
+				'looser' => 'relika + siim'
+		),
+		// 817 - 2 mängu
+		array (
+				'winner' => 'Per + helena',
+				'looser' => 'Kristiina + oliver koel'
 		),
 		array (
-				'winner' => 'kristiina',
-				'looser' => 'indrek'
+				'winner' => 'Merike + Tiit',
+				'looser' => 'Per + helena'
+		),
+		// 818 - 1 mäng
+		array (
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'Per + helena'
+		),
+		// 819 - 1 mäng
+		array (
+				'winner' => 'Toivo + erki',
+				'looser' => 'Per + helena'
+		),
+		// 820 - 1 mäng
+		array (
+				'winner' => 'Kristiina + oliver koel',
+				'looser' => 'relika + siim'
+		),
+		// 821 - 1 mäng
+		array (
+				'winner' => 'Mairi + Tarvo',
+				'looser' => 'Gerd + Janar'
+		),
+		// 827 - 1 mäng
+		array (
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'boris + marje'
+		),
+		// 830 - 1 mäng
+		array (
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'Merike + Tiit'
+		),
+		// 903 - 1 mäng
+		array (
+				'winner' => 'Toivo + erki',
+				'looser' => 'riho + veiko'
+		),
+		// 904 - 1 mäng
+		array (
+				'winner' => 'Mairi + Tarvo',
+				'looser' => 'riho + veiko'
+		),
+		// 905 - 1 mäng
+		array (
+				'winner' => 'Merike + Tiit',
+				'looser' => 'Toivo + erki'
+		),
+		// 908 - 1 mäng
+		array (
+				'winner' => 'riho + veiko',
+				'looser' => 'Gerd + Janar'
+		),
+		// 918 - 1 mäng
+		array (
+				'winner' => 'Mairi + Tarvo',
+				'looser' => 'Per + helena'
+		),
+		// 919 - 1 mäng
+		array (
+				'winner' => 'Mairi + Tarvo',
+				'looser' => 'Kristiina + oliver koel'
+		),
+		// 922 - 2 mängu
+		array (
+				'winner' => 'Kirstiina + oliver koel',
+				'looser' => 'Gerd + Janar'
 		),
 		array (
-				'winner' => 'aivar',
-				'looser' => 'kristiina'
-		),
-		array (
-				'winner' => 'janelle',
-				'looser' => 'katrin'
-		),
-		array (
-				'winner' => 'illimar',
-				'looser' => 'rando'
-		),
-		array (
-				'winner' => 'rando',
-				'looser' => 'stiina'
-		),
-		array (
-				'winner' => 'ville',
-				'looser' => 'stiina'
-		),
-		array (
-				'winner' => 'priit',
-				'looser' => 'per'
-		),
-		array (
-				'winner' => 'kalmer',
-				'looser' => 'indrek'
-		),
-		array (
-				'winner' => 'kalmer',
-				'looser' => 'kristjan'
-		),
-		array (
-				'winner' => 'kalmer',
-				'looser' => 'kristjan'
-		),
-		array (
-				'winner' => 'boris',
-				'looser' => 'indrek'
-		),
-		// 2016 HaValÜTeK Vägi
-		/*
-		 * T: riina / kaie
-		 * T: kalmer / kristjan
-		 * A: kalmer peacecop: / boris
-		 * A: boris / genadi
-		 * A: boris - per
-		 * A: per / genadi
-		 * T: kalmer peacecop: / oliver
-		 * N: liis / ville
-		 * N: liis / illimar
-		 * T: per / indrek
-		 * T: kalmer peacecop: / ville
-		 * T: marje / ville
-		 * T: genadi / ville
-		 * A: boris / ville
-		 * I: genadi / illimar
-		 * I: liis / marje
-		 * T: indrek / marje
-		 * I: indrek / illimar
-		 * A: kristjan / oliver
-		 * T: kairi / riina
-		 * T: riina / merje
-		 * I: illimar / kairi
-		 * A: kristjan / boris
-		 * T: riina / kersti
-		 * A: oliver / boris
-		 * T: kaie / kersti
-		 * I: illimar / kairi
-		 * A: kristjan / boris
-		 * T: riina / kersti
-		 * A: oliver / boris
-		 * T: kaie / kersti
-		 * I: illimar / riina
-		 * T: indrek / genadi
-		 *
-		 */
-		// array (
-		// 'winner' => 'a',
-		// 'looser' => 'b'
-		// ),
-		// array (
-		// 'winner' => 'b',
-		// 'looser' => 'c'
-		// ),
-		// array (
-		// 'winner' => 'c',
-		// 'looser' => 'b'
-		// ),
-		// array (
-		// 'winner' => 'c',
-		// 'looser' => 'a'
-		// ),
-		array (
-				'winner' => 'Riina Bachmann',
-				'looser' => 'Kaie Kree'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Kristjan Pajumets'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'boriss'
-		),
-		array (
-				'winner' => 'boriss',
-				'looser' => 'Genadi Nikolajev'
-		),
-		array (
-				'winner' => 'boriss',
-				'looser' => 'Per Lindberg'
-		),
-		array (
-				'winner' => 'Genadi Nikolajev',
-				'looser' => 'Per Lindberg'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'oliver kotkas'
-		),
-		array (
-				'winner' => 'Ville Pak',
-				'looser' => 'Liis Laanesaar'
-		),
-		array (
-				'winner' => 'Liis Laanesaar',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'Per Lindberg',
-				'looser' => 'Indrek Pajuste'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Ville Pak'
-		),
-		array (
-				'winner' => 'Ville Pak',
-				'looser' => 'marje tammo'
-		),
-		array (
-				'winner' => 'Ville Pak',
-				'looser' => 'Genadi Nikolajev'
-		),
-		array (
-				'winner' => 'boriss',
-				'looser' => 'Ville Pak'
-		),
-		array (
-				'winner' => 'Genadi Nikolajev',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'marje tammo',
-				'looser' => 'Liis Laanesaar'
+				'winner' => 'Kristiina + oliver koel',
+				'looser' => 'riho + veiko'
 		),
 		array (
 				'winner' => 'Indrek Pajuste',

@@ -835,7 +835,7 @@ $matches = array (
 				'winner' => 'boris',
 				'looser' => 'indrek'
 		),
-		// 2016 HaValÜTeK Vägi
+		// 2016 HaValÜTeK Vägi - 29 mängu
 		/*
 		 * T: riina / kaie
 		 * T: kalmer / kristjan
@@ -888,14 +888,17 @@ $matches = array (
 		// 'winner' => 'c',
 		// 'looser' => 'a'
 		// ),
+		// 801 - 1 mäng
 		array (
 				'winner' => 'Riina Bachmann',
 				'looser' => 'Kaie Kree'
 		),
+		// 803 - 1 mäng
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Kristjan Pajumets'
 		),
+		// 806 - 2 mängu
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'boriss'
@@ -904,6 +907,7 @@ $matches = array (
 				'winner' => 'boriss',
 				'looser' => 'Genadi Nikolajev'
 		),
+		// 807 - 2 mängu
 		array (
 				'winner' => 'boriss',
 				'looser' => 'Per Lindberg'
@@ -912,10 +916,12 @@ $matches = array (
 				'winner' => 'Genadi Nikolajev',
 				'looser' => 'Per Lindberg'
 		),
+		// 808 - 1 mäng
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'oliver kotkas'
 		),
+		// 809 - 3 mängu
 		array (
 				'winner' => 'Ville Pak',
 				'looser' => 'Liis Laanesaar'
@@ -928,10 +934,12 @@ $matches = array (
 				'winner' => 'Per Lindberg',
 				'looser' => 'Indrek Pajuste'
 		),
+		// 810 - 1 mäng
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Ville Pak'
 		),
+		// 812 - 2 mängu
 		array (
 				'winner' => 'Ville Pak',
 				'looser' => 'marje tammo'
@@ -940,26 +948,32 @@ $matches = array (
 				'winner' => 'Ville Pak',
 				'looser' => 'Genadi Nikolajev'
 		),
+		// 813 - 1 mäng
 		array (
 				'winner' => 'boriss',
 				'looser' => 'Ville Pak'
 		),
+		// 814 - 1 mäng
 		array (
 				'winner' => 'Genadi Nikolajev',
 				'looser' => 'Illimar Sööt'
 		),
+		// 817 - 1 mäng
 		array (
 				'winner' => 'marje tammo',
 				'looser' => 'Liis Laanesaar'
 		),
+		// 818 - 1 mäng
 		array (
 				'winner' => 'Indrek Pajuste',
 				'looser' => 'marje tammo'
 		),
+		// 821 - 1 mäng
 		array (
 				'winner' => 'Indrek Pajuste',
 				'looser' => 'Illimar Sööt'
 		),
+		// 822 - 2 mängu
 		array (
 				'winner' => 'Kristjan Pajumets',
 				'looser' => 'oliver kotkas'
@@ -968,14 +982,17 @@ $matches = array (
 				'winner' => 'kairi vilderson',
 				'looser' => 'Riina Bachmann'
 		),
+		// 823 - 1 mäng
 		array (
 				'winner' => 'merje kruus',
 				'looser' => 'Riina Bachmann'
 		),
+		// 901 - 1 mäng
 		array (
 				'winner' => 'kairi vilderson',
 				'looser' => 'Illimar Sööt'
 		),
+		// 902 - 2 mängu
 		array (
 				'winner' => 'Kristjan Pajumets',
 				'looser' => 'boriss'
@@ -984,6 +1001,7 @@ $matches = array (
 				'winner' => 'Riina Bachmann',
 				'looser' => 'kersti oselin'
 		),
+		// 903 - 2 mängu
 		array (
 				'winner' => 'oliver kotkas',
 				'looser' => 'boriss'
@@ -992,11 +1010,13 @@ $matches = array (
 				'winner' => 'Kaie Kree',
 				'looser' => 'kersti oselin'
 		),
-		array (
+		// 904 - 1 mäng
+		array ( // kas see mäng toimus pühapäeval ja oli mingi liigatennise mäng hoopis?
 				'winner' => 'marje tammo',
 				'looser' => 'kairi vilderson'
 		),
-		array (
+		// 905 - 2 mängu
+		array ( // see mäng oli vist trenni käigus Illimari väljakul
 				'winner' => 'Illimar Sööt',
 				'looser' => 'kersti oselin'
 		),
@@ -1004,8 +1024,7 @@ $matches = array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'Riina Bachmann'
 		),
-
-		// 2018 Vägi
+		// 2018 Vägi - 62 mängu
 		/*
 		 * Aare Halliko / peacecop kalmer:
 		 * Aare Halliko / Ville Pak
@@ -1067,15 +1086,17 @@ $matches = array (
 		 * * Relika Aruoja / Riho
 		 * I: oliver koel / Siim Simson
 		 */
-
+		// 0615: Tabasalu üksikmängu GP - 1 mäng
 		array (
 				'winner' => 'Meelis Rajapuu',
 				'looser' => 'Siim Simson'
 		),
+		// 0804 - 1 mäng
 		array (
 				'winner' => 'Aare Halliko',
 				'looser' => 'peacecop kalmer:'
 		),
+		// 0805 - 3 mängu
 		array (
 				'winner' => 'Aare Halliko',
 				'looser' => 'Ville Pak'
@@ -1088,6 +1109,7 @@ $matches = array (
 				'winner' => 'Peeter Poom',
 				'looser' => 'Gerd Eston Sepp'
 		),
+		// 0806 - 2 mängu
 		array (
 				'winner' => 'Meelis Rajapuu',
 				'looser' => 'Gerd Eston Sepp'
@@ -1096,6 +1118,7 @@ $matches = array (
 				'winner' => 'Janar Välk',
 				'looser' => 'Evelin Poom'
 		),
+		// 0807 - 3 mängu
 		array (
 				'winner' => 'Peeter Poom',
 				'looser' => 'Meelis Rajapuu'
@@ -1106,8 +1129,14 @@ $matches = array (
 		),
 		array (
 				'winner' => 'peacecop kalmer:',
+				'looser' => 'Illimar Sööt'
+		),
+		// 0809 - 1 mäng
+		array (
+				'winner' => 'peacecop kalmer:',
 				'looser' => 'Ville Pak'
 		),
+		// 0810: Tabamuse üksikmängu GP - 2 mängu
 		array (
 				'winner' => 'Meelis Rajapuu',
 				'looser' => 'Lembit Tampere'
@@ -1116,6 +1145,7 @@ $matches = array (
 				'winner' => 'Siim Simson',
 				'looser' => 'Lembit Tampere'
 		),
+		// 0811 - 2 mängu
 		array (
 				'winner' => 'Indrek Pajuste',
 				'looser' => 'Janar Välk'
@@ -1124,6 +1154,7 @@ $matches = array (
 				'winner' => 'Relika Aruoja',
 				'looser' => 'Helen Maisa'
 		),
+		// 0813 - 2 mängu
 		array (
 				'winner' => 'Siim Simson',
 				'looser' => 'Gerd Eston Sepp'
@@ -1132,6 +1163,7 @@ $matches = array (
 				'winner' => 'Ave Piik',
 				'looser' => 'Relika Aruoja'
 		),
+		// 0814 - 2 mängu
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Peeter Poom'
@@ -1140,10 +1172,12 @@ $matches = array (
 				'winner' => 'Jüri Mallene',
 				'looser' => 'riho maisa'
 		),
+		// 0815 - 1 mäng
 		array (
 				'winner' => 'riho maisa',
 				'looser' => 'Helen Maisa'
 		),
+		// 0816 - 3 mängu
 		array (
 				'winner' => 'Gerd Eston Sepp',
 				'looser' => 'Lembit Tampere'
@@ -1156,11 +1190,12 @@ $matches = array (
 				'winner' => 'Jüri Mallene',
 				'looser' => 'Illimar Sööt'
 		),
-		array (
+		// 0817 - 3 mängu
+		array ( // nad mängisid eraldi, aga kas just sel päeval?
 				'winner' => 'Jüri Mallene',
 				'looser' => 'Illimar Sööt'
 		),
-		array (
+		array ( // nad mängisid eraldi, aga kas just sel päeval?
 				'winner' => 'Illimar Sööt',
 				'looser' => 'Jüri Mallene'
 		),
@@ -1168,14 +1203,17 @@ $matches = array (
 				'winner' => 'Janar Välk',
 				'looser' => 'oliver koel'
 		),
+		// 0818 - 1 mäng
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'Janar Välk'
 		),
+		// 0819 - 1 mäng
 		array (
 				'winner' => 'oliver koel',
 				'looser' => 'Gerd Eston Sepp'
 		),
+		// 0820 - 3 mängu
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'Ave Piik'
@@ -1188,22 +1226,27 @@ $matches = array (
 				'winner' => 'Jüri Mallene',
 				'looser' => 'oliver koel'
 		),
+		// 0821 - 1 mäng
 		array (
 				'winner' => 'Lembit Tampere',
 				'looser' => 'Relika Aruoja'
 		),
+		// 0822 - 1 mäng
 		array (
 				'winner' => 'Meelis Rajapuu',
 				'looser' => 'alvar veersalu'
 		),
+		// 0824 - 1 mäng
 		array (
 				'winner' => 'oliver koel',
 				'looser' => 'Relika Aruoja'
 		),
+		// 0825 - 1 mäng
 		array (
 				'winner' => 'marje tammo',
 				'looser' => 'Indrek Pajuste'
 		),
+		// 0826 - 4 mängu
 		array (
 				'winner' => 'alvar veersalu',
 				'looser' => 'Siim Simson'
@@ -1220,6 +1263,7 @@ $matches = array (
 				'winner' => 'Ville Pak',
 				'looser' => 'marje tammo'
 		),
+		// 0828 - 2 mängu
 		array (
 				'winner' => 'Indrek Jakobson',
 				'looser' => 'oliver koel'
@@ -1228,10 +1272,12 @@ $matches = array (
 				'winner' => 'Meelis Rajapuu',
 				'looser' => 'boriss'
 		),
+		// 0831 - 1 mäng
 		array (
 				'winner' => 'Ave Piik',
 				'looser' => 'Jüri Mallene'
 		),
+		// 0901 - 4 mängu
 		array (
 				'winner' => 'Ave Piik',
 				'looser' => 'Janar Välk'
@@ -1248,14 +1294,17 @@ $matches = array (
 				'winner' => 'Indrek Jakobson',
 				'looser' => 'Jüri Mallene'
 		),
+		// 0907 - 1 mäng
 		array (
 				'winner' => 'Kristiina',
 				'looser' => 'Siim Simson'
 		),
+		// 0908 - 1 mäng
 		array (
 				'winner' => 'marje tammo',
 				'looser' => 'georg kangur'
 		),
+		// 0910 - 2 mängu
 		array (
 				'winner' => 'marje tammo',
 				'looser' => 'alvar veersalu'
@@ -1264,10 +1313,12 @@ $matches = array (
 				'winner' => 'Ville Pak',
 				'looser' => 'Meelis Rajapuu'
 		),
+		// 0914 - 1 mäng
 		array (
 				'winner' => 'alvar veersalu',
 				'looser' => 'georg kangur'
 		),
+		// 0915 - 3 mängu
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'georg kangur'
@@ -1280,6 +1331,7 @@ $matches = array (
 				'winner' => 'Meelis Rajapuu',
 				'looser' => 'marje tammo'
 		),
+		// 0916 - 2 mängu
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'alvar veersalu'
@@ -1288,18 +1340,22 @@ $matches = array (
 				'winner' => 'Aare Halliko',
 				'looser' => 'Kristiina'
 		),
+		// 0920 - 1 mäng
 		array (
 				'winner' => 'marje tammo',
 				'looser' => 'Illimar Sööt'
 		),
+		// 0921 - 1 mäng
 		array (
 				'winner' => 'Janar Välk',
 				'looser' => 'Siim Simson'
 		),
+		// 0928 - 1 mäng
 		array (
 				'winner' => 'Indrek Jakobson',
 				'looser' => 'Siim Simson'
 		),
+		// 0929 - 2 mängu
 		array (
 				'winner' => 'Ave Piik',
 				'looser' => 'Indrek Pajuste'
@@ -1308,6 +1364,7 @@ $matches = array (
 				'winner' => 'riho maisa',
 				'looser' => 'Relika Aruoja'
 		),
+		// 1013 - 1 mäng
 		array (
 				'winner' => 'Siim Simson',
 				'looser' => 'oliver koel'
