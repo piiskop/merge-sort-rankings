@@ -270,28 +270,33 @@ $matches = array (
 		'winner' => 'Indrek Pajuste',
 		'looser' => 'Gerd Eston Sepp'
 	),
-	// HaValÜTeK SeTt 2019
+	// HaValÜTeK SeTt 2019 - 7 mängu
 	/*
 	 * A: peacecop kalmer: / Aare Halliko
 	 * A: Kaie Kree / Relika Aruoja
 	 * A: Indrek Pajuste / Gerd Eston Sepp
 	 */
+	// 1127 - 1 mäng
 	array (
 		'winner' => 'Aare Halliko',
 		'looser' => 'peacecop kalmer:'
 	),
+	// 1213 - 1 mäng
 	array (
 		'winner' => 'Relika Aruoja Aruoja',
 		'looser' => 'Kaie Kree'
 	),
+	// 1215 - 1 mäng
 	array (
 		'winner' => 'Indrek Pajuste',
 		'looser' => 'Gerd Eston Sepp'
 	),
+	// 1227 - 1 mäng
 	array (
 		'winner' => 'Siim Simson',
 		'looser' => 'Indrek Pajuste'
 	),
+	// 1228 - 3 mängu
 	array (
 		'winner' => 'peacecop kalmer:',
 		'looser' => 'Siim Simson'

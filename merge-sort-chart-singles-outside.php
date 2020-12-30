@@ -1369,17 +1369,30 @@ $matches = array (
 				'winner' => 'Siim Simson',
 				'looser' => 'oliver koel'
 		),
-
-		// HaValÜTeK 2019 Vägi
-
+		// HaValÜTeK 2019 Vägi - 33 mängu
+		// 628 - 2 mängu
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'Illimar'
+		),
+		array (
+				'winner' => 'Siim Simson',
+				'looser' => 'Illimar'
+		),
+		// 809 - 3 mängu
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Aare Halliko'
 		),
 		array (
 				'winner' => 'Aare Halliko',
+				'looser' => 'Siim Simson'
+		),
+		array (
+				'winner' => 'Aare Halliko',
 				'looser' => 'peacecop kalmer:'
 		),
+		// 820 - 5 mängu
 		array (
 				'winner' => 'Per Lindberg',
 				'looser' => 'Indrek Jakobson'
@@ -1400,6 +1413,12 @@ $matches = array (
 				'winner' => 'Maidu',
 				'looser' => 'oliver koel'
 		),
+		// 821 - 1 mäng
+		array (
+				'winner' => 'Maidu',
+				'looser' => 'Illimar'
+		),
+		// 822 - 4 mängu
 		array (
 				'winner' => 'oliver koel',
 				'looser' => 'Reet Ruuto'
@@ -1416,6 +1435,7 @@ $matches = array (
 				'winner' => 'oliver koel',
 				'looser' => 'Jüri Mallene'
 		),
+		// 824 - 3 mängu
 		array (
 				'winner' => 'Siim Simson',
 				'looser' => 'oliver koel'
@@ -1427,7 +1447,69 @@ $matches = array (
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Diana Laurits-Tass'
-		)
+		),
+		// 825 - 7 mängu
+		array (
+				'winner' => 'Kristiina',
+				'looser' => 'Meelis'
+		),
+		array (
+				'winner' => 'Lembit Tampere',
+				'looser' => 'Relika'
+		),
+		array (
+				'winner' => 'Meelis',
+				'looser' => 'Illimar'
+		),
+		array (
+				'winner' => 'Siim',
+				'looser' => 'Jakobson'
+		),
+		array (
+				'winner' => 'Aet',
+				'looser' => 'Jüri Mallene'
+		),
+		array (
+				'winner' => 'Maidu',
+				'looser' => 'Kristiina'
+		),
+		array (
+				'winner' => 'Aet',
+				'looser' => 'Relika'
+		),
+		// 830 - 8 mängu
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'Aare'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'Pamela'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'Aare'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'Maidu'
+		),
+		array (
+				'winner' => 'Maidu',
+				'looser' => 'Siim'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'Siim'
+		),
+		array (
+				'winner' => 'peacecop kalmer:',
+				'looser' => 'Aare'
+		),
+		array (
+				'winner' => 'Aare',
+				'looser' => 'Siim'
+		),
 );
 
 $mergeSortChart = new MergeSortChart ();

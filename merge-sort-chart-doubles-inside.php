@@ -145,11 +145,12 @@ $matches = array (
 			'winner' => 'peacecop kalmer:',
 			'looser' => 'Jakobson - georg kangur'
 		),
-	// HaValPaTeK 2019
+	// HaValPaTeK 2019 - 1 mäng
 	/*
 	 * A: Relika Aruoja Aruoja - Siim Simson / peacecop kalmer: - Aet Neering
 	 */
-	array (
+	// 1 mäng
+		array (
 		'winner' => 'peacecop kalmer: - Aet Neering',
 		'looser' => 'Relika Aruoja Aruoja - Siim Simson'
 	)
