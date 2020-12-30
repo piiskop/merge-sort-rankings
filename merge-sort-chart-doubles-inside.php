@@ -74,7 +74,7 @@ $matches = array (
 	// 13 - 1 mäng
 	array (
 		'winner' => 'pentti - palmsaar',
-		'looser' => 'illimar - peacecop kalmer:'
+		'looser' => 'Illimar Sööt - peacecop kalmer:'
 	),
 	// 14 - 1 mäng
 	array (

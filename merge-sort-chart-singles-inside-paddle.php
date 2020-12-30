@@ -27,7 +27,7 @@ $matches = array (
 		'looser' => 'helena'
 	),
 	array (
-		'winner' => 'boriss:',
+		'winner' => 'boriss',
 		'looser' => 'illimar'
 	),
 	array (

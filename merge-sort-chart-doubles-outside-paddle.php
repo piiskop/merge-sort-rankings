@@ -19,7 +19,7 @@ $matches = array (
 		// 2013
 		// 25 - 6 mängu
 		array (
-				'winner' => 'Oleg + Reet',
+				'winner' => 'Oleg + Reet Rätsep',
 				'looser' => 'riina + peacecop kalmer:'
 		),
 		array (
@@ -66,18 +66,18 @@ $matches = array (
 		),
 		array (
 				'winner' => 'peacecop kalmer: + stranberg',
-				'looser' => 'ants + illimar'
+				'looser' => 'ants + taku'
 		),
 		array (
 				'winner' => 'oliver + per',
-				'looser' => 'ants + illimar'
+				'looser' => 'ants + taku'
 		),
 		array (
-				'winner' => 'ants + illimar',
+				'winner' => 'ants + taku',
 				'looser' => 'helena + tarvo'
 		),
 		array (
-				'winner' => 'ants + illimar',
+				'winner' => 'ants + taku',
 				'looser' => 'kristi + kristiina'
 		),
 		array (
@@ -89,7 +89,7 @@ $matches = array (
 				'looser' => 'marko + meelis'
 		),
 		array (
-				'winner' => 'ants + illimar',
+				'winner' => 'ants + taku',
 				'looser' => 'marko + meelis'
 		),
 		array (

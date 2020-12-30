@@ -42,11 +42,11 @@ $matches = array (
 		),
 		array (
 				'winner' => 'Jakov + peacecop kalmer:',
-				'looser' => 'Klaos + Andrus'
+				'looser' => 'Ahto Klaos + Andrus'
 		),
 		array ( // ?
 				'winner' => 'Margus Uppus + Markus',
-				'looser' => 'Klaos + Andrus'
+				'looser' => 'Ahto Klaos + Andrus'
 		),
 		array (
 				'winner' => 'Peeter + Sten',
@@ -67,7 +67,7 @@ $matches = array (
 		// 16 - 5 mängu
 		array (
 				'winner' => 'Jakov + Janelle',
-				'looser' => 'Rätsep + Urmas'
+				'looser' => 'Reet Rätsep + Urmas'
 		),
 		array (
 				'winner' => 'Jane + Marje Teeriaho',
@@ -93,7 +93,7 @@ $matches = array (
 		// 18 - 6 mängu
 		array (
 				'winner' => 'Signe + peacecop kalmer:',
-				'looser' => 'Aivar + Kristiina'
+				'looser' => 'aivar + kristiina'
 		),
 		array (
 				'winner' => 'Johannes + Mirjam',
@@ -121,7 +121,7 @@ $matches = array (
 				'looser' => 'Reet Rätsep + Urmas'
 		),
 		array (
-				'winner' => 'Aivar + Kristiina',
+				'winner' => 'aivar + kristiina',
 				'looser' => 'Reet Rätsep + Urmas'
 		),
 		// 20 - 6 mängu
@@ -151,7 +151,7 @@ $matches = array (
 		),
 		// 21 - 5 mängu
 		array (
-				'winner' => 'Ahto + Kirsti',
+				'winner' => 'Ahto Klaos + Kirsti',
 				'looser' => 'Marje Teeriaho + Toivo'
 		),
 		array (
@@ -176,7 +176,7 @@ $matches = array (
 				'looser' => 'Peeter + Sten'
 		),
 		array (
-				'winner' => 'Aivar + Kristiina',
+				'winner' => 'aivar + kristiina',
 				'looser' => 'Ahto Klaos + Kirsti'
 		),
 		// 25 - 12 mängu
@@ -232,17 +232,17 @@ $matches = array (
 		// 19 - 1 mäng
 		array (
 				'winner' => 'Mirja-Helen + Pajumets',
-				'looser' => 'Kaie + peacecop kalmer:'
+				'looser' => 'kaie + peacecop kalmer:'
 		),
 		// 20 - 1 mäng
 		array (
-				'winner' => 'Aivar + Kristiina',
-				'looser' => 'Janelle + Klaos'
+				'winner' => 'aivar + kristiina',
+				'looser' => 'Ahto Klaos + Janelle'
 		),
 		// 21 - 2 mängu
 		array (
 				'winner' => 'Artur + Priit',
-				'looser' => 'Klaos + Ville'
+				'looser' => 'Ahto Klaos + ville'
 		),
 		array (
 				'winner' => 'Kalev + Sören',
@@ -273,16 +273,16 @@ $matches = array (
 		),
 		// 31 - 2 mängu 
 		array (
-				'winner' => 'Kaie - peacecop kalmer:',
-				'looser' => 'Janelle + Klaos'
+				'winner' => 'kaie + peacecop kalmer:',
+				'looser' => 'Ahto Klaos + Janelle'
 		),
 		array (
-				'winner' => 'Aivar + Kristiina',
-				'looser' => 'Kaie - peacecop kalmer:'
+				'winner' => 'aivar + kristiina',
+				'looser' => 'kaie + peacecop kalmer:'
 		),
 		// 1 - 2 mängu
 		array (
-				'winner' => 'Kaie - peacecop kalmer:',
+				'winner' => 'kaie + peacecop kalmer:',
 				'looser' => 'Kristhel + Kristjan Viilmann'
 		),
 		array (
@@ -291,12 +291,12 @@ $matches = array (
 		),
 		// 2 - 3 mängu
 		array (
-				'winner' => 'Klaos + Ville',
+				'winner' => 'Ahto Klaos + ville',
 				'looser' => 'Mati + Ülo'
 		),
 		array (
 				'winner' => 'Mirja-Helen + Pajumets',
-				'looser' => 'Aivar + Kristiina'
+				'looser' => 'aivar + kristiina'
 		),
 		array (
 				'winner' => 'Kaie + Mirja-Helen',
@@ -309,16 +309,16 @@ $matches = array (
 		),
 		array (
 				'winner' => 'Kalev + Sören',
-				'looser' => 'Klaos + Ville'
+				'looser' => 'Ahto Klaos + ville'
 		),
 		array (
-				'winner' => 'Janelle + Klaos',
+				'winner' => 'Ahto Klaos + Janelle',
 				'looser' => 'Kristhel + Kristjan Viilmann'
 		),
 		// 4 - 2 mängu
 		array (
 				'winner' => 'Kristjan Viilmann + peacecop kalmer:',
-				'looser' => 'Klaos + ville'
+				'looser' => 'Ahto Klaos + ville'
 		),
 		array (
 				'winner' => 'Peeter + Sten',
@@ -332,13 +332,13 @@ $matches = array (
 		// 2015 - 11 mängu
 		// 0809 - 1 mäng
 		array (
-				'winner' => 'illimar + peacecop kalmer:',
+				'winner' => 'peacecop kalmer: + taku',
 				'looser' => 'rainer + ville'
 		),
 		// 0813 - 1 mäng
 		array (
-				'winner' => 'oliver + per',
-				'looser' => 'illimar + peacecop kalmer:'
+				'winner' => 'kotkas + per',
+				'looser' => 'peacecop kalmer: + taku'
 		),
 		// 0816 - 3 mängu
 		array (
@@ -384,8 +384,8 @@ $matches = array (
 		// 2016 - 9 mängu
 		// 808 - 1 mäng
 		array (
-				'winner' => 'illimar + peacecop kalmer:',
-				'looser' => 'oliver + per'
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'kotkas + per'
 		),
 		// 809 - 1 mäng
 		array (
@@ -394,7 +394,7 @@ $matches = array (
 		),
 		// 814 - 2 mängu
 		array (
-				'winner' => 'illimar + peacecop kalmer:',
+				'winner' => 'peacecop kalmer: + taku',
 				'looser' => 'boris + marje'
 		),
 		array (
@@ -541,432 +541,13 @@ $matches = array (
 		),
 		// 922 - 2 mängu
 		array (
-				'winner' => 'Kirstiina + oliver koel',
+				'winner' => 'Kristiina + oliver koel',
 				'looser' => 'Gerd + Janar'
 		),
 		array (
 				'winner' => 'Kristiina + oliver koel',
 				'looser' => 'riho + veiko'
 		),
-		array (
-				'winner' => 'Indrek Pajuste',
-				'looser' => 'marje tammo'
-		),
-		array (
-				'winner' => 'Indrek Pajuste',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'Kristjan Pajumets',
-				'looser' => 'oliver kotkas'
-		),
-		array (
-				'winner' => 'kairi vilderson',
-				'looser' => 'Riina Bachmann'
-		),
-		array (
-				'winner' => 'merje kruus',
-				'looser' => 'Riina Bachmann'
-		),
-		array (
-				'winner' => 'kairi vilderson',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'Kristjan Pajumets',
-				'looser' => 'boriss'
-		),
-		array (
-				'winner' => 'Riina Bachmann',
-				'looser' => 'kersti oselin'
-		),
-		array (
-				'winner' => 'oliver kotkas',
-				'looser' => 'boriss'
-		),
-		array (
-				'winner' => 'Kaie Kree',
-				'looser' => 'kersti oselin'
-		),
-		array (
-				'winner' => 'marje tammo',
-				'looser' => 'kairi vilderson'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'kersti oselin'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'Riina Bachmann'
-		),
-
-		// 2018 Vägi
-		/*
-		 * Aare Halliko / peacecop kalmer:
-		 * Aare Halliko / Ville Pak
-		 * Indrek Jakobson / Evelin Poom
-		 * Gerd Eston Sepp / Peeter Poom
-		 * Gerd Eston Sepp / Meelis Rajapuu
-		 * Janar Välk / Evelin Poom
-		 * Meelis Rajapuu / Peeter Poom
-		 * * T: peacecop kalmer: / Illimar Sööt
-		 * * T: peacecop kalmer: / Ville Pak
-		 * A: Indrek Pajuste / Janar Välk
-		 * * A: Helen Maisa / Relika Aruoja
-		 * T: Gerd Eston Sepp / Siim Simson
-		 * T: Ave Piik / Relika Aruoja
-		 * * T: peacecop kalmer: / Peeter Poom
-		 * T: Jüri Mallene / Riho Maisa
-		 * T: Helen Maisa / Riho Maisa
-		 * * T: Gerd Eston Sepp / Lembit Tamper
-		 * * A: Saree Halliko / Peeter Poom
-		 * * T: Jüri Mallene / Illimar Sööt
-		 * A: Janar Välk / oliver koel
-		 * T: Janar Välk / Illimar Sööt
-		 * * A: Gerd Eston Sepp / oliver koel
-		 * T: Ave Piik / Illimar Sööt
-		 * * T: Kristiina / Ville Pak
-		 * * T: Jüri Mallene / oliver koel
-		 * T: Ave Piik / Jüri Mallene
-		 * * T: Lembit Tampere / Relika Aruoja
-		 * A: alvar veersalu / Mihkel Rajapuu
-		 * * A: oliver koel / Relika Aruoja
-		 * * T: Indrek Pajuste / marje tammo
-		 * * A: Alvar Veersalu / Siim Simson
-		 * * A: Janar Välk / Jüri Mallene
-		 * * A: oliver koel / riho maisa
-		 * * A: marje tammo / Ville Pak
-		 * A: Indrek Jakobson / oliver koel
-		 * * I: boris / Meelis Rajapuu
-		 * T: Ave Piik / Jüri Mallene
-		 * * A: Ave Piik / Janar Välk
-		 * * A: Indrek Pajuste / Illimar Sööt
-		 * * A: Indrek Jakobson / Jüri Mallene
-		 * T: Kristiina / Siim Simson
-		 * T: georg kangur / marje tammo
-		 * * A: Alvar Veersalu / marje tammo
-		 * * T: Meelis Rajapuu / Ville Pak
-		 * * A: Relika Aruoja / riho maisa
-		 * * A: alvar veersalu / georg kangur
-		 * * A: georg kangur / Illimar Sööt
-		 * * A: Ave Piik / georg kangur
-		 * * A: marje tammo / Meelis Rajapuu
-		 * * A: alvar veersalu / Illimar Sööt
-		 * * A: Aare Halliko / Kristiina
-		 * A: marje tammo / Illimar Sööt
-		 * * T: Janar Välk / Siim Simson
-		 * A: Indrek Jakobson / Siim Simson
-		 * * A: Relika Aruoja / riho maisa
-		 * * A: Indrek Jakobson / Siim Simson
-		 * * A: Ave Piik / Indrek Pajuste
-		 * * Relika Aruoja / Riho
-		 * I: oliver koel / Siim Simson
-		 */
-
-		array (
-				'winner' => 'Meelis Rajapuu',
-				'looser' => 'Siim Simson'
-		),
-		array (
-				'winner' => 'Aare Halliko',
-				'looser' => 'peacecop kalmer:'
-		),
-		array (
-				'winner' => 'Aare Halliko',
-				'looser' => 'Ville Pak'
-		),
-		array (
-				'winner' => 'Evelin Poom',
-				'looser' => 'Indrek Jakobson'
-		),
-		array (
-				'winner' => 'Peeter Poom',
-				'looser' => 'Gerd Eston Sepp'
-		),
-		array (
-				'winner' => 'Meelis Rajapuu',
-				'looser' => 'Gerd Eston Sepp'
-		),
-		array (
-				'winner' => 'Janar Välk',
-				'looser' => 'Evelin Poom'
-		),
-		array (
-				'winner' => 'Peeter Poom',
-				'looser' => 'Meelis Rajapuu'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Ville Pak'
-		),
-		array (
-				'winner' => 'Meelis Rajapuu',
-				'looser' => 'Lembit Tampere'
-		),
-		array (
-				'winner' => 'Siim Simson',
-				'looser' => 'Lembit Tampere'
-		),
-		array (
-				'winner' => 'Indrek Pajuste',
-				'looser' => 'Janar Välk'
-		),
-		array (
-				'winner' => 'Relika Aruoja',
-				'looser' => 'Helen Maisa'
-		),
-		array (
-				'winner' => 'Siim Simson',
-				'looser' => 'Gerd Eston Sepp'
-		),
-		array (
-				'winner' => 'Ave Piik',
-				'looser' => 'Relika Aruoja'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Peeter Poom'
-		),
-		array (
-				'winner' => 'Jüri Mallene',
-				'looser' => 'riho maisa'
-		),
-		array (
-				'winner' => 'riho maisa',
-				'looser' => 'Helen Maisa'
-		),
-		array (
-				'winner' => 'Gerd Eston Sepp',
-				'looser' => 'Lembit Tampere'
-		),
-		array (
-				'winner' => 'Aare Halliko',
-				'looser' => 'Peeter Poom'
-		),
-		array (
-				'winner' => 'Jüri Mallene',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'Jüri Mallene',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'Jüri Mallene'
-		),
-		array (
-				'winner' => 'Janar Välk',
-				'looser' => 'oliver koel'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'Janar Välk'
-		),
-		array (
-				'winner' => 'oliver koel',
-				'looser' => 'Gerd Eston Sepp'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'Ave Piik'
-		),
-		array (
-				'winner' => 'Kristiina',
-				'looser' => 'Ville Pak'
-		),
-		array (
-				'winner' => 'Jüri Mallene',
-				'looser' => 'oliver koel'
-		),
-		array (
-				'winner' => 'Lembit Tampere',
-				'looser' => 'Relika Aruoja'
-		),
-		array (
-				'winner' => 'Meelis Rajapuu',
-				'looser' => 'alvar veersalu'
-		),
-		array (
-				'winner' => 'oliver koel',
-				'looser' => 'Relika Aruoja'
-		),
-		array (
-				'winner' => 'marje tammo',
-				'looser' => 'Indrek Pajuste'
-		),
-		array (
-				'winner' => 'alvar veersalu',
-				'looser' => 'Siim Simson'
-		),
-		array (
-				'winner' => 'Janar Välk',
-				'looser' => 'Jüri Mallene'
-		),
-		array (
-				'winner' => 'oliver koel',
-				'looser' => 'riho maisa'
-		),
-		array (
-				'winner' => 'Ville Pak',
-				'looser' => 'marje tammo'
-		),
-		array (
-				'winner' => 'Indrek Jakobson',
-				'looser' => 'oliver koel'
-		),
-		array (
-				'winner' => 'Meelis Rajapuu',
-				'looser' => 'boriss'
-		),
-		array (
-				'winner' => 'Ave Piik',
-				'looser' => 'Jüri Mallene'
-		),
-		array (
-				'winner' => 'Ave Piik',
-				'looser' => 'Janar Välk'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Aare Halliko'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'Indrek Pajuste'
-		),
-		array (
-				'winner' => 'Indrek Jakobson',
-				'looser' => 'Jüri Mallene'
-		),
-		array (
-				'winner' => 'Kristiina',
-				'looser' => 'Siim Simson'
-		),
-		array (
-				'winner' => 'marje tammo',
-				'looser' => 'georg kangur'
-		),
-		array (
-				'winner' => 'marje tammo',
-				'looser' => 'alvar veersalu'
-		),
-		array (
-				'winner' => 'Ville Pak',
-				'looser' => 'Meelis Rajapuu'
-		),
-		array (
-				'winner' => 'alvar veersalu',
-				'looser' => 'georg kangur'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'georg kangur'
-		),
-		array (
-				'winner' => 'Ave Piik',
-				'looser' => 'georg kangur'
-		),
-		array (
-				'winner' => 'Meelis Rajapuu',
-				'looser' => 'marje tammo'
-		),
-		array (
-				'winner' => 'Illimar Sööt',
-				'looser' => 'alvar veersalu'
-		),
-		array (
-				'winner' => 'Aare Halliko',
-				'looser' => 'Kristiina'
-		),
-		array (
-				'winner' => 'marje tammo',
-				'looser' => 'Illimar Sööt'
-		),
-		array (
-				'winner' => 'Janar Välk',
-				'looser' => 'Siim Simson'
-		),
-		array (
-				'winner' => 'Indrek Jakobson',
-				'looser' => 'Siim Simson'
-		),
-		array (
-				'winner' => 'Ave Piik',
-				'looser' => 'Indrek Pajuste'
-		),
-		array (
-				'winner' => 'riho maisa',
-				'looser' => 'Relika Aruoja'
-		),
-		array (
-				'winner' => 'Siim Simson',
-				'looser' => 'oliver koel'
-		),
-
-		// HaValÜTeK 2019 Vägi
-
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Aare Halliko'
-		),
-		array (
-				'winner' => 'Aare Halliko',
-				'looser' => 'peacecop kalmer:'
-		),
-		array (
-				'winner' => 'Per Lindberg',
-				'looser' => 'Indrek Jakobson'
-		),
-		array (
-				'winner' => 'oliver koel',
-				'looser' => 'Gerd Eston Sepp'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Kristiina'
-		),
-		array (
-				'winner' => 'Reet Ruuto',
-				'looser' => 'Kaie Kree'
-		),
-		array (
-				'winner' => 'Maidu',
-				'looser' => 'oliver koel'
-		),
-		array (
-				'winner' => 'oliver koel',
-				'looser' => 'Reet Ruuto'
-		),
-		array (
-				'winner' => 'Diana Laurits-Tass',
-				'looser' => 'Lembit Tampere'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Maidu'
-		),
-		array (
-				'winner' => 'oliver koel',
-				'looser' => 'Jüri Mallene'
-		),
-		array (
-				'winner' => 'Siim Simson',
-				'looser' => 'oliver koel'
-		),
-		array (
-				'winner' => 'Gerd Eston Sepp',
-				'looser' => 'Jüri Mallene'
-		),
-		array (
-				'winner' => 'peacecop kalmer:',
-				'looser' => 'Diana Laurits-Tass'
-		)
 );
 
 $mergeSortChart = new MergeSortChart ();
