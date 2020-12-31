@@ -16,11 +16,11 @@ require_once dirname ( __FILE__ ) . '/MergeSortChart.php';
  *      <code>looser</code>, value is the name of the player
  */
 $matches = array (
-		// 2013
+		// 2013 - 6 mängu
 		// 25 - 6 mängu
 		array (
 				'winner' => 'Oleg + Reet Rätsep',
-				'looser' => 'riina + peacecop kalmer:'
+				'looser' => 'peacecop kalmer: + riina'
 		),
 		array (
 				'winner' => 'Evelyn + Jakov',
@@ -41,6 +41,32 @@ $matches = array (
 		array (
 				'winner' => 'Klaos + Toivo',
 				'looser' => 'aivar + Marju'
+		),
+		// 2014 - 6 mängu
+		// 7 - 6 mängu
+		array (
+				'winner' => 'Klaos + taku',
+				'looser' => 'per + riina'
+		),
+		array (
+				'winner' => 'Klaos + peacecop kalmer:',
+				'looser' => 'riina + taku'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'Klaos + per'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + per',
+				'looser' => 'Klaos + riina'
+		),
+		array (
+				'winner' => 'peacecop kalmer: + taku',
+				'looser' => 'per + riina'
+		),
+		array (
+				'winner' => 'per + taku',
+				'looser' => 'peacecop kalmer: + riina'
 		),
 		// 2015 - 14 mängu
 		// 30 - 14 mängu
