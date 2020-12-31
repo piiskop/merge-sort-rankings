@@ -420,5 +420,6 @@ class MergeSortChart {
 			microtime(true) - $timestampOfStart // 2
 		);
 		// @formatter:on
+		//echo date('Y-m-d H:i:s', 1418838999684/ 1000);
 	}
 }

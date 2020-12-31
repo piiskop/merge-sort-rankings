@@ -152,15 +152,18 @@ $matches = array (
 		// 29 - 3 mängu
 		array (
 				'winner' => 'oliver koel + peacecop kalmer:',
-				'looser' => 'Merike + Tiit'
+				'looser' => 'Merike + Tiit',
+				'statistics'=> 'TVRJd05qbG0'
 		),
 		array (
 				'winner' => 'Merike + Tiit',
-				'looser' => 'Kristiina + taku'
+				'looser' => 'Kristiina + taku',
+				'statistics'=> 'TVRGbU16Smk'
 		),
 		array (
 				'winner' => 'oliver koel + peacecop kalmer:',
-				'looser' => 'Kristiina + taku'
+				'looser' => 'Kristiina + taku',
+				'statistics'=> 'TVRJd05tVXg'
 		),
 );
 

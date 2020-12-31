@@ -48,7 +48,8 @@ $matches = array (
 	),
 	array (
 		'winner' => 'peacecop kalmer:',
-		'looser' => 'illimar'
+		'looser' => 'illimar',
+			'statistics'=> 'TVRJeVpqUmo'
 	),
 	array (
 		'winner' => 'helena',

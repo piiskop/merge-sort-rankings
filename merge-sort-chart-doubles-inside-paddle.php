@@ -20,7 +20,8 @@ $matches = array (
 	// 10 - 5 mängu
 	array (
 		'winner' => 'boris + Heli',
-		'looser' => 'Helena + peacecop kalmer:'
+		'looser' => 'Helena + peacecop kalmer:',
+			'statistics'=> 'TVRJeVpqUmk'
 	),
 	array (
 		'winner' => 'illimar + riina',

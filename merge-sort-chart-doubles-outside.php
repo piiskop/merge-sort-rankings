@@ -351,7 +351,8 @@ $matches = array (
 		),
 		array (
 				'winner' => 'illimar + riina',
-				'looser' => 'helena + ville'
+				'looser' => 'helena + ville',
+				'statistics'=>'TTJZeFlXWXk'
 		),
 		// 0819 - 1 mäng
 		array (
@@ -361,7 +362,8 @@ $matches = array (
 		// 0821 - 2 mängu
 		array (
 				'winner' => 'kaie + peacecop kalmer:',
-				'looser' => 'külli + rainer'
+				'looser' => 'külli + rainer',
+				'statistics'=>'TTJZeFpUUTM'
 		),
 		array (
 				'winner' => 'külli + rainer',
@@ -370,16 +372,19 @@ $matches = array (
 		// 0903 - 1 mäng
 		array (
 				'winner' => 'kaie + külli',
-				'looser' => 'helena + kristiina'
+				'looser' => 'helena + kristiina',
+				'statistics'=>'TTJZeVlUZzQ'
 		),
 		// 0906 - 2 mängu
 		array (
 				'winner' => 'helena + kristiina',
-				'looser' => 'janelle + riina'
+				'looser' => 'janelle + riina',
+				'statistics'=>'TTJZeVpEa3k'
 		),
 		array (
 				'winner' => 'külli + rainer',
-				'looser' => 'aivar + kristiina'
+				'looser' => 'aivar + kristiina',
+				'statistics'=>'TTJZeVpHWTI'
 		),
 		// 2016 - 9 mängu
 		// 808 - 1 mäng
@@ -399,7 +404,8 @@ $matches = array (
 		),
 		array (
 				'winner' => 'kaie + peacecop kalmer:',
-				'looser' => 'boris + marje'
+				'looser' => 'boris + marje',
+				'statistics'=> 'TVRBMU1UUmo'
 		),
 		// 821 - 1 mäng
 		array (
@@ -419,7 +425,8 @@ $matches = array (
 		// 907 - 1 mäng
 		array (
 				'winner' => 'riina + taku',
-				'looser' => 'kaie + kairi'
+				'looser' => 'kaie + kairi',
+				'statistics'=> 'TVRBMk16WTA'
 		),
 		// 924 - 1 mäng
 		array (
@@ -430,26 +437,31 @@ $matches = array (
 		// 805 - 2 mängu
 		array (
 				'winner' => 'Evelin + Peeter',
-				'looser' => 'Helena + Jakobson'
+				'looser' => 'Helena + Jakobson',
+				'statistics'=> 'TVRGbE5tVXk'
 		),
 		array (
 				'winner' => 'Evelin + Peeter',
-				'looser' => 'Mairi + Tarvo'
+				'looser' => 'Mairi + Tarvo',
+				'statistics'=> 'TVRGbE5tVmk'
 		),
 		// 807 - 1 mäng
 		array (
 				'winner' => 'peacecop kalmer: + taku',
-				'looser' => 'Gerd + Janar'
+				'looser' => 'Gerd + Janar',
+				'statistics'=> 'TVRGbE9EVXg'
 		),
 		// 809 - 1 mäng
 		array (
 				'winner' => 'Toivo + erki',
-				'looser' => 'Evelin + Peeter'
+				'looser' => 'Evelin + Peeter',
+				'statistics'=>'TVRGbE9ETm0'
 		),
 		// 813 - 2 mängu
 		array (
 				'winner' => 'Toivo + erki',
-				'looser' => 'peacecop kalmer: + taku'
+				'looser' => 'peacecop kalmer: + taku',
+				'statistics'=> 'TVRGbFlXVTM'
 		),
 		array (
 				'winner' => 'peacecop kalmer: + taku',
@@ -458,95 +470,114 @@ $matches = array (
 		// 814 - 1 mäng
 		array (
 				'winner' => 'Per + helena',
-				'looser' => 'relika + siim'
+				'looser' => 'relika + siim',
+				'statistics'=> 'TVRGbFlUVTM'
 		),
 		// 815 - 1 mäng
 		array (
 				'winner' => 'Merike + Tiit',
-				'looser' => 'relika + siim'
+				'looser' => 'relika + siim',
+				'statistics'=> 'TVRGbFlqQTE'
 		),
 		// 816 - 1 mäng
 		array (
 				'winner' => 'Gerd + Janar',
-				'looser' => 'relika + siim'
+				'looser' => 'relika + siim',
+				'statistics'=> 'TVRGbFltTXk'
 		),
 		// 817 - 2 mängu
 		array (
 				'winner' => 'Per + helena',
-				'looser' => 'Kristiina + oliver koel'
+				'looser' => 'Kristiina + oliver koel',
+				'statistics'=> 'TVRGbFl6RXo'
 		),
 		array (
 				'winner' => 'Merike + Tiit',
-				'looser' => 'Per + helena'
+				'looser' => 'Per + helena',
+				'statistics'=>'TVRGbFl6Smk'
 		),
 		// 818 - 1 mäng
 		array (
 				'winner' => 'peacecop kalmer: + taku',
-				'looser' => 'Per + helena'
+				'looser' => 'Per + helena',
+				'statistics'=> 'TVRGbU5USTA'
 		),
 		// 819 - 1 mäng
 		array (
 				'winner' => 'Toivo + erki',
-				'looser' => 'Per + helena'
+				'looser' => 'Per + helena',
+				'statistics'=> 'TVRGbFpEazA'
 		),
 		// 820 - 1 mäng
 		array (
 				'winner' => 'Kristiina + oliver koel',
-				'looser' => 'relika + siim'
+				'looser' => 'relika + siim',
+				'statistics'=> 'TVRGbFpHWTM'
 		),
 		// 821 - 1 mäng
 		array (
 				'winner' => 'Mairi + Tarvo',
-				'looser' => 'Gerd + Janar'
+				'looser' => 'Gerd + Janar',
+				'statistics'=> 'TVRGbFpXUmo'
 		),
 		// 827 - 1 mäng
 		array (
 				'winner' => 'peacecop kalmer: + taku',
-				'looser' => 'boris + marje'
+				'looser' => 'boris + marje',
+				'statistics'=> 'TVRJd05HUTE'
 		),
 		// 830 - 1 mäng
 		array (
 				'winner' => 'peacecop kalmer: + taku',
-				'looser' => 'Merike + Tiit'
+				'looser' => 'Merike + Tiit',
+				'statistics'=> 'TVRJd056QXk'
 		),
 		// 903 - 1 mäng
 		array (
 				'winner' => 'Toivo + erki',
-				'looser' => 'riho + veiko'
+				'looser' => 'riho + veiko',
+				'statistics'=> 'TVRGbU9ERTE'
 		),
 		// 904 - 1 mäng
 		array (
 				'winner' => 'Mairi + Tarvo',
-				'looser' => 'riho + veiko'
+				'looser' => 'riho + veiko',
+				'statistics'=> 'TVRGbU9UUTA'
 		),
 		// 905 - 1 mäng
 		array (
 				'winner' => 'Merike + Tiit',
-				'looser' => 'Toivo + erki'
+				'looser' => 'Toivo + erki',
+				'statistics'=> 'TVRGbU9XSXc'
 		),
 		// 908 - 1 mäng
 		array (
 				'winner' => 'riho + veiko',
-				'looser' => 'Gerd + Janar'
+				'looser' => 'Gerd + Janar',
+				'statistics'=> 'TVRGbVlqZzM'
 		),
 		// 918 - 1 mäng
 		array (
 				'winner' => 'Mairi + Tarvo',
-				'looser' => 'Per + helena'
+				'looser' => 'Per + helena',
+				'statistics'=> 'TVRJd01qazM'
 		),
 		// 919 - 1 mäng
 		array (
 				'winner' => 'Mairi + Tarvo',
-				'looser' => 'Kristiina + oliver koel'
+				'looser' => 'Kristiina + oliver koel',
+				'statistics'=> 'TVRJd016QXo'
 		),
 		// 922 - 2 mängu
 		array (
 				'winner' => 'Kristiina + oliver koel',
-				'looser' => 'Gerd + Janar'
+				'looser' => 'Gerd + Janar',
+				'statistics'=> 'TVRJd00yWXg'
 		),
 		array (
 				'winner' => 'Kristiina + oliver koel',
-				'looser' => 'riho + veiko'
+				'looser' => 'riho + veiko',
+				'statistics'=> 'TVRJd05EWTU'
 		),
 );
 
