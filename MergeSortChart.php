@@ -177,7 +177,7 @@ class MergeSortChart {
 				$this->results [$player] ['winners'] [$parameters ['looser']] = $this->results [$parameters ['looser']];
 				// update loosers of the player
 				$this->updateLooser ( array (
-					'looser' => $player
+						'looser' => $player
 				) );
 			}
 		}
@@ -239,7 +239,7 @@ class MergeSortChart {
 
 									// update loosers of the past looser
 									$this->updateLooser ( array (
-										'looser' => $previousLooser
+											'looser' => $previousLooser
 									) );
 								}
 							}
@@ -248,11 +248,11 @@ class MergeSortChart {
 				}
 				// clean winners
 				$this->cleanWinner ( array (
-					'deep' => true,
-					'results' => $winners,
-					'winner' => $parameters ['winner'],
-					'looser' => $parameters ['looser'],
-					'parent' => $parameters ['parent']
+						'deep' => true,
+						'results' => $winners,
+						'winner' => $parameters ['winner'],
+						'looser' => $parameters ['looser'],
+						'parent' => $parameters ['parent']
 				) );
 			}
 		}
@@ -279,8 +279,8 @@ class MergeSortChart {
 		foreach ( $parameters ['array'] as $value ) {
 			if (is_array ( $value )) {
 				$depth = $this->array_depth ( array (
-					'array' => $value,
-					'keyForChildren' => $parameters ['keyForChildren']
+						'array' => $value,
+						'keyForChildren' => $parameters ['keyForChildren']
 				) ) + 1;
 				if ($depth > $max_depth) {
 					$max_depth = $depth;
@@ -302,15 +302,31 @@ class MergeSortChart {
 	 *        	is the name of either winner or looser
 	 */
 	public function manageResults($parameters) {
-
+		// setting the timestamp once the program starts
+		$timestampOfStart = microtime ( true );
+		// initializing the counter for the total number of matches played
+		$totalNumberOfMatchesPlayed = 0;
 		// for each match result
 		foreach ( $parameters ['matches'] as $match ) {
-			// if there is no entry for the winner yet
-			if (! isset ( $this->results [$match ['winner']] )) {
+			/*
+			 * If there is an entry for the winner increment
+			 * the number of matches played and wins
+			 * otherwise create an entry for the winner.
+			 */
+			if (isset ( $this->results [$match ['winner']] )) {
+				$this->results [$match ['winner']] ['numberOfMatchesPlayed'] ++;
+				if (isset ( $this->results [$match ['winner']] ['numberOfWins'] )) {
+					$this->results [$match ['winner']] ['numberOfWins'] ++;
+				} else {
+					$this->results [$match ['winner']] ['numberOfWins'] = 1;
+				}
+			} else {
 				// set an entry for the winner
 				$this->results [$match ['winner']] = array (
-					'player' => $match ['winner'],
-					'winners' => array ()
+						'player' => $match ['winner'],
+						'numberOfMatchesPlayed' => 1,
+						'numberOfWins' => 1,
+						'winners' => array ()
 				);
 			}
 
@@ -319,22 +335,29 @@ class MergeSortChart {
 			 * somebody in the winner’s winners’ critical path
 			 */
 			$this->cleanWinner ( array (
-				'deep' => false,
-				'results' => $this->results [$match ['winner']],
-				'winner' => $match ['winner'],
-				'looser' => $match ['looser'],
-				'parent' => NULL
+					'deep' => false,
+					'results' => $this->results [$match ['winner']],
+					'winner' => $match ['winner'],
+					'looser' => $match ['looser'],
+					'parent' => NULL
 			) );
 
 			// set an entry for the looser
 			$this->results [$match ['looser']] ['player'] = $match ['looser'];
+			if (isset ( $this->results [$match ['looser']] ['numberOfMatchesPlayed'] )) {
+				$this->results [$match ['looser']] ['numberOfMatchesPlayed'] ++;
+			} else {
+				$this->results [$match ['looser']] ['numberOfMatchesPlayed'] = 1;
+			}
 			// insert the list of the winner to the winners' list of the looser
 			$this->results [$match ['looser']] ['winners'] [$match ['winner']] = $this->results [$match ['winner']];
 
 			// update loosers of the looser
 			$this->updateLooser ( array (
-				'looser' => $match ['looser']
+					'looser' => $match ['looser']
 			) );
+			// incrementing the counter for the total number of matches played
+			$totalNumberOfMatchesPlayed ++;
 		}
 		// echo ' 381: <pre>';print_r($this->results); echo '</pre>';
 
@@ -347,8 +370,8 @@ class MergeSortChart {
 				 * critical path of the player's winners
 				 */
 				$this->results [$player] ['place'] = $this->array_depth ( array (
-					'array' => $arrayOfPlayer,
-					'keyForChildren' => 'winners'
+						'array' => $arrayOfPlayer,
+						'keyForChildren' => 'winners'
 				) ) - 1;
 			} // otherwise
 			else {
@@ -359,18 +382,43 @@ class MergeSortChart {
 		// echo ' 59: <pre>';print_r($this->results); echo '</pre>';
 		// sort the list of the players according to their places ascending
 		$sortedResults = MergeSortChart::multiSort ( $this->results, array (
-			'place' => array (
-				'sortAscending' => TRUE,
-				'type' => SORT_NUMERIC
-			)
+				'place' => array (
+						'sortAscending' => TRUE,
+						'type' => SORT_NUMERIC
+				)
 		) );
+		echo "\nLevel\tPlayer\tNumber of matches played\tNumber of wins";
 		// echo ' 340: <pre>';print_r($sortedResults); echo '</pre>';
 		foreach ( $sortedResults as $player => $arrayOfPlayer ) {
-			echo "\n", $arrayOfPlayer ['place'], "\t", $player;
+			// @formatter:off
+			echo sprintf(
+				'%1$s%2$u%3$s%4$s%3$s%5$u%3$s%6$u',
+				"\n", // 1
+				$arrayOfPlayer['place'], // 2
+				"\t", // 3
+				$player, // 4
+				$arrayOfPlayer['numberOfMatchesPlayed'], // 5
+				isset($arrayOfPlayer['numberOfWins']) ? $arrayOfPlayer ['numberOfWins'] : 0 // 6
+			);
+			// @formatter:on
 		}
 		echo "\n";
 		// foreach ( $this->results ['kersti oselin'] ['winners'] as $winner => $array ) {
 		// print_r ( $winner );
 		// }
+		// @formatter:off
+		// printing out the total number of matches
+		echo sprintf(
+			'%1$sAltogether %2$u matches have been played.%1$s',
+			"\n", // 1
+			$totalNumberOfMatchesPlayed // 2
+		);
+		// setting the timestamp for the program end and measuring running time
+		echo sprintf(
+			'%1$sCalculation took %2$f seconds.%1$s',
+			"\n", // 1
+			microtime(true) - $timestampOfStart // 2
+		);
+		// @formatter:on
 	}
 }
