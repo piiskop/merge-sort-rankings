@@ -329,7 +329,14 @@ class MergeSortChart {
 						'winners' => array ()
 				);
 			}
-
+			/*
+			 * If the match has a link to statistics incrementing
+			 * the number of matches with statistics.
+			 */
+			$this->addStatistics ( array (
+					'match' => $match,
+					'player' => $match ['winner']
+			) );
 			/*
 			 * manage all the cases where the winner has previously lost to
 			 * somebody in the winner’s winners’ critical path
@@ -344,11 +351,17 @@ class MergeSortChart {
 
 			// set an entry for the looser
 			$this->results [$match ['looser']] ['player'] = $match ['looser'];
+			// Setting the number of matches played
 			if (isset ( $this->results [$match ['looser']] ['numberOfMatchesPlayed'] )) {
 				$this->results [$match ['looser']] ['numberOfMatchesPlayed'] ++;
 			} else {
 				$this->results [$match ['looser']] ['numberOfMatchesPlayed'] = 1;
 			}
+			// Setting the number of matches having statistics for this looser
+			$this->addStatistics ( array (
+					'match' => $match,
+					'player' => $match ['looser']
+			) );
 			// insert the list of the winner to the winners' list of the looser
 			$this->results [$match ['looser']] ['winners'] [$match ['winner']] = $this->results [$match ['winner']];
 
@@ -387,18 +400,19 @@ class MergeSortChart {
 						'type' => SORT_NUMERIC
 				)
 		) );
-		echo "\nLevel\tPlayer\tNumber of matches played\tNumber of wins";
+		echo "\nLevel\tPlayer\tNumber of matches played\tNumber of wins\tNumber of matches with statistics";
 		// echo ' 340: <pre>';print_r($sortedResults); echo '</pre>';
 		foreach ( $sortedResults as $player => $arrayOfPlayer ) {
 			// @formatter:off
 			echo sprintf(
-				'%1$s%2$u%3$s%4$s%3$s%5$u%3$s%6$u',
+				'%1$s%2$u%3$s%4$s%3$s%5$u%3$s%6$u%3$s%7$u',
 				"\n", // 1
 				$arrayOfPlayer['place'], // 2
 				"\t", // 3
 				$player, // 4
 				$arrayOfPlayer['numberOfMatchesPlayed'], // 5
-				isset($arrayOfPlayer['numberOfWins']) ? $arrayOfPlayer ['numberOfWins'] : 0 // 6
+				isset($arrayOfPlayer['numberOfWins']) ? $arrayOfPlayer ['numberOfWins'] : 0, // 6
+				isset($arrayOfPlayer['numberOfMatchesWithStatistics']) ? $arrayOfPlayer['numberOfMatchesWithStatistics'] : 0 // 7
 			);
 			// @formatter:on
 		}
@@ -420,6 +434,24 @@ class MergeSortChart {
 			microtime(true) - $timestampOfStart // 2
 		);
 		// @formatter:on
-		//echo date('Y-m-d H:i:s', 1418838999684/ 1000);
+		// echo date('Y-m-d H:i:s', 1418838999684/ 1000);
+	}
+	/**
+	 * Setting the number of matches having the link to statistics
+	 *
+	 * @param mixed[string] $parameters['match']
+	 *        	a match with data about the winner and looser
+	 *        	and eventually the link to the statistics
+	 * @param string $parameters['player']
+	 *        	the name of the player
+	 */
+	private function addStatistics($parameters) {
+		if (isset ( $parameters ['match'] ['statistics'] )) {
+			if (isset ( $this->results [$parameters ['player']] ['numberOfMatchesWithStatistics'] )) {
+				$this->results [$parameters ['player']] ['numberOfMatchesWithStatistics'] ++;
+			} else {
+				$this->results [$parameters ['player']] ['numberOfMatchesWithStatistics'] = 1;
+			}
+		}
 	}
 }
