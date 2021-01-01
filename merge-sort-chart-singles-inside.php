@@ -76,7 +76,7 @@ $matches = array (
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Oliver Kotkas',
-				'statistics'=> 'TTJVMFpXSXg'
+				'statistics' => 'TTJVMFpXSXg'
 		),
 		// 27 - 1 mäng
 		array (
@@ -116,17 +116,17 @@ $matches = array (
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'rainer',
-				'statistics'=>'WmpjMU1qVT0'
+				'statistics' => 'WmpjMU1qVT0'
 		),
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'külli',
-				'statistics'=>'WmpjME56WT0'
+				'statistics' => 'WmpjME56WT0'
 		),
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=>'WmpjME9XST0'
+				'statistics' => 'WmpjME9XST0'
 		),
 		// 10 - 1 mäng
 		array (
@@ -137,7 +137,7 @@ $matches = array (
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'georg kangur',
-				'statistics'=>'WmpjM016TT0'
+				'statistics' => 'WmpjM016TT0'
 		),
 		// 14 - 1 mäng
 		array (
@@ -148,24 +148,24 @@ $matches = array (
 		array (
 				'winner' => 'rainer',
 				'looser' => 'Illimar Sööt',
-				'statistics'=>'WmpjNE1XTT0'
+				'statistics' => 'WmpjNE1XTT0'
 		),
 		array (
 				'winner' => 'Indrek Pajuste',
 				'looser' => 'rainer',
-				'statistics'=>'WmpjNE16Zz0'
+				'statistics' => 'WmpjNE16Zz0'
 		),
 		// 16 - 1 mäng
 		array (
 				'winner' => 'tarmo',
 				'looser' => 'rainer',
-				'statistics'=>'WmpjNE9URT0'
+				'statistics' => 'WmpjNE9URT0'
 		),
 		// 17 - 1 mäng
 		array (
 				'winner' => 'tarmo',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=> 'WmpjNFl6TT0'
+				'statistics' => 'WmpjNFl6TT0'
 		),
 		// 19 - 1 mäng
 		array (
@@ -176,7 +176,7 @@ $matches = array (
 		array (
 				'winner' => 'georg kangur',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=>'WmpkaE5qRT0'
+				'statistics' => 'WmpkaE5qRT0'
 		),
 		array (
 				'winner' => 'peacecop kalmer:',
@@ -185,13 +185,13 @@ $matches = array (
 		array (
 				'winner' => 'pentti',
 				'looser' => 'peacecop kalmer:',
-				'statistics'=> 'WmpkaFlUUT0'
+				'statistics' => 'WmpkaFlUUT0'
 		),
 		// 21 - 1 mäng
 		array (
 				'winner' => 'boris',
 				'looser' => 'pentti',
-				'statistics'=> 'WmpkaU5qYz0'
+				'statistics' => 'WmpkaU5qYz0'
 		),
 		// 23 - 1 mäng
 		array (
@@ -202,18 +202,18 @@ $matches = array (
 		array (
 				'winner' => 'per',
 				'looser' => 'rainer',
-				'statistics'=> 'Wmpka1l6UT0'
+				'statistics' => 'Wmpka1l6UT0'
 		),
 		array (
 				'winner' => 'tarmo',
 				'looser' => 'per',
-				'statistics'=> 'WmpkbE1EZz0'
+				'statistics' => 'WmpkbE1EZz0'
 		),
 		// 30 - 1 mäng
 		array (
 				'winner' => 'tarmo',
 				'looser' => 'georg kangur',
-				'statistics'=> 'WmpkbVpqRT0'
+				'statistics' => 'WmpkbVpqRT0'
 		),
 		// HaValÜTeK SeTt 2018 - 14 mängu
 		/*
@@ -241,76 +241,76 @@ $matches = array (
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=> 'TVRJeU9UUTE'
+				'statistics' => 'TVRJeU9UUTE'
 		),
 		array (
 				'winner' => 'Siim Simson',
 				'looser' => 'Gerd Eston Sepp',
-				'statistics'=> 'TVRJeU9EZGk'
+				'statistics' => 'TVRJeU9EZGk'
 		),
 		// 1125 - 1 mäng
 		array (
 				'winner' => 'Gerd Eston Sepp',
 				'looser' => 'Relika Aruoja Aruoja',
-				'statistics'=>'TVRJeU9UazU'
+				'statistics' => 'TVRJeU9UazU'
 		),
 		// 1130 - 1 mäng
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=> 'TVRJeVl6QTI'
+				'statistics' => 'TVRJeVl6QTI'
 		),
 		// 1201 - 1 mäng
 		array (
 				'winner' => 'Erik',
 				'looser' => 'georg kangur',
-				'statistics'=> 'TVRJeVl6YzQ'
+				'statistics' => 'TVRJeVl6YzQ'
 		),
 		// 1202 - 1 mäng
 		array (
 				'winner' => 'Relika Aruoja Aruoja',
 				'looser' => 'Kaie Kree',
-				'statistics'=> 'TVRJeVpEUmo'
+				'statistics' => 'TVRJeVpEUmo'
 		),
 		// 1215 - 1 mäng
 		array (
 				'winner' => 'Siim Simson',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=> 'TVRJek1tWTE'
+				'statistics' => 'TVRJek1tWTE'
 		),
 		// 1216 - 1 mäng
 		array (
 				'winner' => 'Siim Simson',
 				'looser' => 'Illimar Sööt',
-				'statistics'=> 'TVRJek1tWTI'
+				'statistics' => 'TVRJek1tWTI'
 		),
 		// 1218 - 1 mäng
 		array (
 				'winner' => 'Indrek Jakobson',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=> 'TVRJek1tWTQ'
+				'statistics' => 'TVRJek1tWTQ'
 		),
 		// 1222 - 3 mängu
 		array (
 				'winner' => 'Illimar Sööt',
 				'looser' => 'Indrek Jakobson',
-				'statistics'=>'TVRJek1UVTQ'
+				'statistics' => 'TVRJek1UVTQ'
 		),
 		array (
 				'winner' => 'Indrek Jakobson',
 				'looser' => 'Siim Simson',
-				'statistics'=> 'TVRJek1tWTU'
+				'statistics' => 'TVRJek1tWTU'
 		),
 		array (
 				'winner' => 'Erik',
 				'looser' => 'Indrek Jakobson',
-				'statistics'=> 'TVRJek1tWmg'
+				'statistics' => 'TVRJek1tWmg'
 		),
 		// 1223 - 1 mäng
 		array (
 				'winner' => 'Indrek Pajuste',
 				'looser' => 'Gerd Eston Sepp',
-				'statistics'=> 'TVRJek1tWmk'
+				'statistics' => 'TVRJek1tWmk'
 		),
 		// HaValÜTeK SeTt 2019 - 7 mängu
 		/*
@@ -327,40 +327,43 @@ $matches = array (
 		array (
 				'winner' => 'Relika Aruoja Aruoja',
 				'looser' => 'Kaie Kree',
-				'statistics'=> 'TVRNeU1HUXg'
+				'statistics' => 'TVRNeU1HUXg'
 		),
 		// 1215 - 1 mäng
 		array (
 				'winner' => 'Indrek Pajuste',
 				'looser' => 'Gerd Eston Sepp',
-				'statistics'=> 'TVRNeU1Ua3g'
+				'statistics' => 'TVRNeU1Ua3g'
 		),
 		// 1227 - 1 mäng
 		array (
 				'winner' => 'Siim Simson',
 				'looser' => 'Indrek Pajuste',
-				'statistics'=> 'TVRNeU5UbGo'
+				'statistics' => 'TVRNeU5UbGo'
 		),
 		// 1228 - 3 mängu
 		array (
 				'winner' => 'peacecop kalmer:',
 				'looser' => 'Siim Simson',
-				'statistics'=> 'TVRNeU9EUTM'
+				'statistics' => 'TVRNeU9EUTM'
 		),
 		array (
 				'winner' => 'Aet Neering',
 				'looser' => 'Relika Aruoja Aruoja',
-				'statistics'=> 'TVRNeU5qRmk'
+				'statistics' => 'TVRNeU5qRmk'
 		),
 		array (
 				'winner' => 'Gerd Eston Sepp',
 				'looser' => 'Aet Neering',
-				'statistics'=> 'TVRNeU56Umo'
+				'statistics' => 'TVRNeU56Umo'
 		)
 );
 
 $mergeSortChart = new MergeSortChart ();
+$metadataOfCurrentFile = pathinfo ( __FILE__ );
+preg_match ( '/merge-sort-chart-(.+)/', $metadataOfCurrentFile ['filename'], $foundMatches );
 $mergeSortChart->manageResults ( array (
-		'matches' => $matches
+		'matches' => $matches,
+		'typeOfTennis' => $foundMatches [1]
 ) );
 

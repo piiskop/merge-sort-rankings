@@ -51,6 +51,13 @@ class MergeSortChart {
 	 */
 	// @formatter:on
 	private $results = array ();
+	/**
+	 *
+	 * @access private
+	 * @author peacecop kalmer:
+	 * @var string[string] the array of links to statistics
+	 */
+	private $statistics = array ();
 
 	/**
 	 * This function sorts an array according to the given index.
@@ -300,6 +307,17 @@ class MergeSortChart {
 	 *        	the matches where the
 	 *        	index is <code>winner</code> or <code>looser</code> and the value
 	 *        	is the name of either winner or looser
+	 * @param string $parameters['typeOfTennis']
+	 *        	the type of tennis:<ul><li><code>doubles-inside</code></li>
+	 *        	<li><code>doubles-inside-paddle</code></li>
+	 *        	<li><code>doubles-outside</code></li>
+	 *        	<li><code>doubles-outside-paddle</code></li>
+	 *        	<li><code>doubles-outside-sponge</code></li>
+	 *        	<li><code>singles-inside</code></li>
+	 *        	<li><code>singles-inside-paddle</code></li>
+	 *        	<li><code>singles-outside</code></li>
+	 *        	<li><code>singles-outside-paddle</code></li>
+	 *        	<li><code>singles-outside-sponge</code></li></ul>
 	 */
 	public function manageResults($parameters) {
 		// setting the timestamp once the program starts
@@ -400,6 +418,55 @@ class MergeSortChart {
 						'type' => SORT_NUMERIC
 				)
 		) );
+		// Storing all the statistics' files locally.
+		$typesOfStatistics = array (
+				'matchlog',
+				'matchinfo',
+				'statistics'
+		);
+		foreach ( $this->statistics as $identifier ) {
+			foreach ( $typesOfStatistics as $typeOfStatistics ) {
+// 				$identifier = 'TVRNeU1HUXg';
+				// @formatter:off
+				$urlLog = sprintf(
+					'https://app.tennis-math.com/%1$s/%2$s',
+					$typeOfStatistics, // 1
+					$identifier // 2
+				);
+				// @formatter:on
+				$ch = curl_init ();
+				// IMPORTANT: the below line is a security risk, read https://paragonie.com/blog/2017/10/certainty-automated-cacert-pem-management-for-php-software
+				// in most cases, you should set it to true
+				curl_setopt ( $ch, CURLOPT_SSL_VERIFYPEER, false );
+				curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
+				curl_setopt ( $ch, CURLOPT_URL, $urlLog );
+				curl_setopt ( $ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)' );
+				$contentsLog = curl_exec ( $ch );
+				if (curl_errno ( $ch )) {
+					die ( 'Curl error: ' . curl_error ( $ch ) );
+				}
+				curl_close ( $ch );
+				$log = json_decode ( iconv ( 'UTF-8', 'UTF-8//IGNORE', utf8_encode ( $contentsLog ) ) );
+				// @formatter:off
+				$pathToFolder = sprintf(
+					'%1$s/statistics/%2$s/',
+					__DIR__, // 1
+					$parameters['typeOfTennis'] // 2
+				);
+				// @formatter:on
+				if (! is_dir ( $pathToFolder )) {
+					mkdir ( $pathToFolder, 0770, true );
+				}
+				// @formatter:off
+				file_put_contents ( sprintf (
+					'%1$s%2$s-%3$s.json',
+					$pathToFolder, // 1
+					$identifier, // 2
+					$typeOfStatistics // 3
+				), json_encode ( $log ) );
+				// @formatter:on
+			}
+		}
 		echo "\nLevel\tPlayer\tNumber of matches played\tNumber of wins\tNumber of matches with statistics";
 		// echo ' 340: <pre>';print_r($sortedResults); echo '</pre>';
 		foreach ( $sortedResults as $player => $arrayOfPlayer ) {
@@ -429,7 +496,7 @@ class MergeSortChart {
 		);
 		// setting the timestamp for the program end and measuring running time
 		echo sprintf(
-			'%1$sCalculation took %2$f seconds.%1$s',
+			'%1$sThe whole operation lasted %2$f seconds.%1$s',
 			"\n", // 1
 			microtime(true) - $timestampOfStart // 2
 		);
@@ -452,6 +519,7 @@ class MergeSortChart {
 			} else {
 				$this->results [$parameters ['player']] ['numberOfMatchesWithStatistics'] = 1;
 			}
+			$this->statistics [$parameters ['match'] ['statistics']] = $parameters ['match'] ['statistics'];
 		}
 	}
 }

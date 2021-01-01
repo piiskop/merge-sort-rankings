@@ -58,7 +58,10 @@ $matches = array (
 );
 
 $mergeSortChart = new MergeSortChart ();
+$metadataOfCurrentFile = pathinfo ( __FILE__ );
+preg_match ( '/merge-sort-chart-(.+)/', $metadataOfCurrentFile ['filename'], $foundMatches );
 $mergeSortChart->manageResults ( array (
-	'matches' => $matches
+		'matches' => $matches,
+		'typeOfTennis' => $foundMatches [1]
 ) );
 
