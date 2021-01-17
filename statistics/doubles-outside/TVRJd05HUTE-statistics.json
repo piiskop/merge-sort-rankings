@@ -1,1 +1,3961 @@
-{"statsTabs":[{"title":"Essential","groups":[{"counters":{"DFCounter":{"T1Wins":{"bySets":[true,false,false],"total":false},"T2Wins":{"bySets":[false,true,false],"total":true},"T1Result":{"bySets":["4","3","-"],"total":"7"},"T2Result":{"total":"5","bySets":["5","-","-"]},"name":"Double faults","type":"simple"},"AceCounter":{"T1Wins":{"bySets":[false,true,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["-","1","-"],"total":"1"},"T2Result":{"total":"2","bySets":["2","-","-"]},"name":"Aces","type":"simple"},"_1stServicePercentCounter":{"T1Wins":{"bySets":[true,false,false],"total":true},"T2Wins":{"bySets":[false,true,false],"total":false},"T1Result":{"bySets":["63%","69%","-"],"total":"67%"},"T2Result":{"total":"63%","bySets":["50%","76%","-"]},"name":"% 1st service","type":"percentage"}},"label":"Service"},{"counters":{"AggressiveMarginCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["-9","-6","-"],"total":"-15"},"T2Result":{"total":"9","bySets":["6","3","-"]},"name":"Aggressive margin","type":"simple"},"ErrorsUnforcedCounter":{"T1FHBH":{"bySets":{"fh":[10,12,0],"bh":[0,0,0]},"total":{"bh":0,"fh":22}},"T2FHBH":{"bySets":{"fh":[4,12,0],"bh":[2,5,0]},"total":{"bh":7,"fh":16}},"T1Wins":{"bySets":[false,true,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["14","15","-"],"total":"29"},"T2Result":{"total":"28","bySets":["11","17","-"]},"name":"Unforced errors","type":"simple"},"WinnerCounter":{"T1FHBH":{"bySets":{"fh":[4,5,0],"bh":[1,0,0]},"total":{"bh":1,"fh":9}},"T2FHBH":{"bySets":{"fh":[11,7,0],"bh":[0,1,0]},"total":{"bh":1,"fh":18}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["5","6","-"],"total":"11"},"T2Result":{"total":"21","bySets":["13","8","-"]},"name":"Winners","type":"simple"},"TotalPointsWonCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["16","26","-"],"total":"42"},"T2Result":{"total":"66","bySets":["31","35","-"]},"name":"Total points won","type":"simple"}},"label":"Points"},{"counters":{"NetPointsCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["3\/4","4\/7","-\/-"],"total":"7\/11"},"T2Result":{"total":"15\/20","bySets":["9\/10","6\/10","-\/-"]},"name":"Net points","type":"relation"},"_1stPtsWonCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["42%","59%","-"],"total":"53%"},"T2Result":{"total":"75%","bySets":["79%","73%","-"]},"name":"1st service pts won","type":"percentage"},"BreakPointsCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["1\/2","1\/2","-\/-"],"total":"2\/4"},"T2Result":{"total":"5\/10","bySets":["3\/3","2\/7","-\/-"]},"name":"Break points","type":"relation"},"ReceivingPtsWonCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["39%","34%","-"],"total":"37%"},"T2Result":{"total":"59%","bySets":["74%","50%","-"]},"name":"Receiving pts won","type":"percentage"}},"label":"Conversion"}]},{"title":"Detailed","groups":[{"counters":{"LetCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,true,false],"total":true},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Lets","type":"simple"},"_2ndServiceCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["3","7","-"],"total":"10"},"T2Result":{"total":"16","bySets":["9","7","-"]},"name":"2nd services","type":"simple"},"_1stServiceCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["12","22","-"],"total":"34"},"T2Result":{"total":"36","bySets":["14","22","-"]},"name":"1st services","type":"simple"},"DFCounter":{"T1Wins":{"bySets":[true,false,false],"total":false},"T2Wins":{"bySets":[false,true,false],"total":true},"T1Result":{"bySets":["4","3","-"],"total":"7"},"T2Result":{"total":"5","bySets":["5","-","-"]},"name":"Double faults","type":"simple"},"AceCounter":{"T1Wins":{"bySets":[false,true,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["-","1","-"],"total":"1"},"T2Result":{"total":"2","bySets":["2","-","-"]},"name":"Aces","type":"simple"},"_1stServicePercentCounter":{"T1Wins":{"bySets":[true,false,false],"total":true},"T2Wins":{"bySets":[false,true,false],"total":false},"T1Result":{"bySets":["63%","69%","-"],"total":"67%"},"T2Result":{"total":"63%","bySets":["50%","76%","-"]},"name":"% 1st service","type":"percentage"},"ServicesCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["19","32","-"],"total":"51"},"T2Result":{"total":"57","bySets":["28","29","-"]},"name":"Total services","type":"simple"}},"label":"Service"},{"counters":{"_2ndUnreturnedCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["3","2","-"],"total":"5"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Unreturned 2nd services","type":"simple"},"_1stUnreturnedCounter":{"T1Wins":{"bySets":[false,true,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["5","5","-"],"total":"10"},"T2Result":{"total":"9","bySets":["2","7","-"]},"name":"Unreturned 1st services","type":"simple"},"ReturnWinnersCounter":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,true,false],"total":true},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Return winners","type":"simple"},"ReturnErrorsCounter":{"T1FHBH":{"bySets":{"fh":[5,7,0],"bh":[1,0,0]},"total":{"bh":1,"fh":12}},"T2FHBH":{"bySets":{"fh":[1,4,0],"bh":[1,3,0]},"total":{"bh":4,"fh":5}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["6","7","-"],"total":"13"},"T2Result":{"total":"9","bySets":["2","7","-"]},"name":"Return errors","type":"simple"}},"label":"Return"},{"counters":{"AggressiveMarginCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["-9","-6","-"],"total":"-15"},"T2Result":{"total":"9","bySets":["6","3","-"]},"name":"Aggressive margin","type":"simple"},"ErrorsForcedCounter":{"T1FHBH":{"bySets":{"fh":[3,10,0],"bh":[1,2,0]},"total":{"bh":3,"fh":13}},"T2FHBH":{"bySets":{"fh":[0,2,0],"bh":[0,1,0]},"total":{"bh":1,"fh":2}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["4","12","-"],"total":"16"},"T2Result":{"total":"3","bySets":["-","3","-"]},"name":"Forced errors","type":"simple"},"ErrorsUnforcedCounter":{"T1FHBH":{"bySets":{"fh":[10,12,0],"bh":[0,0,0]},"total":{"bh":0,"fh":22}},"T2FHBH":{"bySets":{"fh":[4,12,0],"bh":[2,5,0]},"total":{"bh":7,"fh":16}},"T1Wins":{"bySets":[false,true,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["14","15","-"],"total":"29"},"T2Result":{"total":"28","bySets":["11","17","-"]},"name":"Unforced errors","type":"simple"},"WinnerCounter":{"T1FHBH":{"bySets":{"fh":[4,5,0],"bh":[1,0,0]},"total":{"bh":1,"fh":9}},"T2FHBH":{"bySets":{"fh":[11,7,0],"bh":[0,1,0]},"total":{"bh":1,"fh":18}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["5","6","-"],"total":"11"},"T2Result":{"total":"21","bySets":["13","8","-"]},"name":"Winners","type":"simple"},"TotalPointsWonCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["16","26","-"],"total":"42"},"T2Result":{"total":"66","bySets":["31","35","-"]},"name":"Total points won","type":"simple"}},"label":"Points"},{"counters":{"ServeAndVolleyCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-\/-","-\/-","-\/-"],"total":"-\/-"},"T2Result":{"total":"-\/-","bySets":["-\/-","-\/-","-\/-"]},"name":"statsServeAndVolley","type":"relation"},"PassingShotCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["2\/2","2\/3","-\/-"],"total":"4\/5"},"T2Result":{"total":"10\/11","bySets":["6\/6","4\/5","-\/-"]},"name":"statsPassingShots","type":"relation"},"_2ndPtsWonCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["0%","43%","-"],"total":"30%"},"T2Result":{"total":"56%","bySets":["67%","43%","-"]},"name":"2nd service pts won","type":"percentage"},"_1stPtsWonCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["42%","59%","-"],"total":"53%"},"T2Result":{"total":"75%","bySets":["79%","73%","-"]},"name":"1st service pts won","type":"percentage"},"ApproachPointsCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-\/2","-\/-","-\/-"],"total":"-\/2"},"T2Result":{"total":"-\/1","bySets":["-\/-","-\/1","-\/-"]},"name":"Approach points","type":"relation"},"NetRollerCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-\/-","-\/-","-\/-"],"total":"-\/-"},"T2Result":{"total":"-\/-","bySets":["-\/-","-\/-","-\/-"]},"name":"statsNetRollers","type":"relation"},"NetPointsCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["3\/4","4\/7","-\/-"],"total":"7\/11"},"T2Result":{"total":"15\/20","bySets":["9\/10","6\/10","-\/-"]},"name":"Net points","type":"relation"},"BreakPointsCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["1\/2","1\/2","-\/-"],"total":"2\/4"},"T2Result":{"total":"5\/10","bySets":["3\/3","2\/7","-\/-"]},"name":"Break points","type":"relation"},"ReceivingPtsWonCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["39%","34%","-"],"total":"37%"},"T2Result":{"total":"59%","bySets":["74%","50%","-"]},"name":"Receiving pts won","type":"percentage"}},"label":"Conversion"},{"counters":{"RallyLengthDuration_0_10":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["10","12","-"],"total":"22"},"T2Result":{"total":"34","bySets":["17","17","-"]},"name":"0''>10''","type":"simple"},"LongestRallyCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["00'22","00'20","00'00"],"total":"00'22"},"T2Result":{"total":"00'39","bySets":["00'23","00'39","00'00"]},"name":"Longest","type":"time"},"RallyLengthDuration_10_20":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["3","7","-"],"total":"10"},"T2Result":{"total":"18","bySets":["9","9","-"]},"name":"10''>20''","type":"simple"},"RallyLengthDuration_0_3":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["2","2","-"],"total":"4"},"T2Result":{"total":"9","bySets":["5","4","-"]},"name":"0''>3''","type":"simple"},"RallyLengthCounter_11_more":{"T1Wins":{"bySets":[true,true,false],"total":true},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["1","1","-"],"total":"2"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"10+ shots","type":"simple"},"RallyLengthCounter_00_01":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["11","10","-"],"total":"21"},"T2Result":{"total":"30","bySets":["14","16","-"]},"name":"0-1 shots","type":"simple"},"RallyLengthDuration_20_9223372036854775807":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,true,false],"total":true},"T1Result":{"bySets":["1","-","-"],"total":"1"},"T2Result":{"total":"5","bySets":["1","4","-"]},"name":">20''","type":"simple"},"RallyLengthCounter_06_10":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["1","-","-"],"total":"1"},"T2Result":{"total":"4","bySets":["2","2","-"]},"name":"6-10 shots","type":"simple"},"WonRallyAvgCounter":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["00'08","00'06","00'00"],"total":"00'07"},"T2Result":{"total":"00'08","bySets":["00'07","00'10","00'00"]},"name":"Average","type":"time"},"RallyLengthCounter_02_05":{"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["-","8","-"],"total":"8"},"T2Result":{"total":"16","bySets":["7","9","-"]},"name":"2-5 shots","type":"simple"}},"label":"Won rallies"}]},{"title":"By shot","groups":[{"counters":{"ErrorsUnforcedCounter_by_GROUND":{"T1FHBH":{"bySets":{"fh":[3,6,0],"bh":[0,0,0]},"total":{"bh":0,"fh":9}},"T2FHBH":{"bySets":{"fh":[2,5,0],"bh":[0,2,0]},"total":{"bh":2,"fh":7}},"T1Wins":{"bySets":[false,true,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":false},"T1Result":{"bySets":["3","6","-"],"total":"9"},"T2Result":{"total":"9","bySets":["2","7","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_GROUND":{"T1FHBH":{"bySets":{"fh":[1,4,0],"bh":[0,2,0]},"total":{"bh":2,"fh":5}},"T2FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["1","6","-"],"total":"7"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_GROUND":{"T1FHBH":{"bySets":{"fh":[2,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":3}},"T2FHBH":{"bySets":{"fh":[1,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":2}},"T1Wins":{"bySets":[true,false,false],"total":true},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["2","1","-"],"total":"3"},"T2Result":{"total":"2","bySets":["1","1","-"]},"name":"Winners","type":"simple"}},"label":"Ground stroke"},{"counters":{"ErrorsUnforcedCounter_by_VOLLEY":{"T1FHBH":{"bySets":{"fh":[2,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":2}},"T2FHBH":{"bySets":{"fh":[1,2,0],"bh":[1,0,0]},"total":{"bh":1,"fh":3}},"T1Wins":{"bySets":[false,true,false],"total":true},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["2","-","-"],"total":"2"},"T2Result":{"total":"4","bySets":["2","2","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_VOLLEY":{"T1FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,1,0]},"total":{"bh":1,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","1","-"],"total":"1"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_VOLLEY":{"T1FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T2FHBH":{"bySets":{"fh":[4,2,0],"bh":[0,1,0]},"total":{"bh":1,"fh":6}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["-","1","-"],"total":"1"},"T2Result":{"total":"7","bySets":["4","3","-"]},"name":"Winners","type":"simple"}},"label":"Volley"},{"counters":{"ErrorsUnforcedCounter_by_DROP_SHOT":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_DROP_SHOT":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_DROP_SHOT":{"T1FHBH":{"bySets":{"fh":[1,2,0],"bh":[1,0,0]},"total":{"bh":1,"fh":3}},"T2FHBH":{"bySets":{"fh":[2,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":3}},"T1Wins":{"bySets":[false,true,false],"total":true},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["2","2","-"],"total":"4"},"T2Result":{"total":"3","bySets":["2","1","-"]},"name":"Winners","type":"simple"}},"label":"Drop-shot"},{"counters":{"ErrorsUnforcedCounter_by_SMASH":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T1Wins":{"bySets":[false,true,false],"total":true},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_SMASH":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_SMASH":{"T1FHBH":{"bySets":{"fh":[1,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":2}},"T2FHBH":{"bySets":{"fh":[3,2,0],"bh":[0,0,0]},"total":{"bh":0,"fh":5}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["1","1","-"],"total":"2"},"T2Result":{"total":"5","bySets":["3","2","-"]},"name":"Winners","type":"simple"}},"label":"Smash"},{"counters":{"ErrorsUnforcedCounter_by_LOB":{"T1FHBH":{"bySets":{"fh":[2,3,0],"bh":[0,0,0]},"total":{"bh":0,"fh":5}},"T2FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["2","3","-"],"total":"5"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_LOB":{"T1FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,true,false],"total":true},"T1Result":{"bySets":["-","1","-"],"total":"1"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_LOB":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[1,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"1","bySets":["1","-","-"]},"name":"Winners","type":"simple"}},"label":"Lob"}]},{"title":"By spin","groups":[{"counters":{"ErrorsUnforcedCounter_by_TOP_SPIN":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[1,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T1Wins":{"bySets":[true,false,false],"total":true},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"1","bySets":["1","-","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_TOP_SPIN":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_TOP_SPIN":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Winners","type":"simple"}},"label":"Top-spin"},{"counters":{"ErrorsUnforcedCounter_by_DRIVE":{"T1FHBH":{"bySets":{"fh":[10,12,0],"bh":[0,0,0]},"total":{"bh":0,"fh":22}},"T2FHBH":{"bySets":{"fh":[3,11,0],"bh":[2,5,0]},"total":{"bh":7,"fh":14}},"T1Wins":{"bySets":[false,true,false],"total":false},"T2Wins":{"bySets":[true,false,false],"total":true},"T1Result":{"bySets":["10","12","-"],"total":"22"},"T2Result":{"total":"21","bySets":["5","16","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_DRIVE":{"T1FHBH":{"bySets":{"fh":[3,10,0],"bh":[1,2,0]},"total":{"bh":3,"fh":13}},"T2FHBH":{"bySets":{"fh":[0,2,0],"bh":[0,1,0]},"total":{"bh":1,"fh":2}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["4","12","-"],"total":"16"},"T2Result":{"total":"3","bySets":["-","3","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_DRIVE":{"T1FHBH":{"bySets":{"fh":[4,3,0],"bh":[1,0,0]},"total":{"bh":1,"fh":7}},"T2FHBH":{"bySets":{"fh":[11,6,0],"bh":[0,0,0]},"total":{"bh":0,"fh":17}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[true,true,false],"total":true},"T1Result":{"bySets":["5","3","-"],"total":"8"},"T2Result":{"total":"17","bySets":["11","6","-"]},"name":"Winners","type":"simple"}},"label":"Drive"},{"counters":{"ErrorsUnforcedCounter_by_FLAT":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_FLAT":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_FLAT":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Winners","type":"simple"}},"label":"Flat"},{"counters":{"ErrorsUnforcedCounter_by_SLICE":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,0,0]},"total":{"bh":0,"fh":1}},"T1Wins":{"bySets":[false,true,false],"total":true},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"1","bySets":["-","1","-"]},"name":"Unforced errors","type":"simple"},"ErrorsForcedCounter_by_SLICE":{"T1FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T2FHBH":{"bySets":{"fh":[0,0,0],"bh":[0,0,0]},"total":{"bh":0,"fh":0}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","-","-"],"total":"-"},"T2Result":{"total":"-","bySets":["-","-","-"]},"name":"Forced errors","type":"simple"},"WinnerCounter_by_SLICE":{"T1FHBH":{"bySets":{"fh":[0,2,0],"bh":[0,0,0]},"total":{"bh":0,"fh":2}},"T2FHBH":{"bySets":{"fh":[0,1,0],"bh":[0,1,0]},"total":{"bh":1,"fh":1}},"T1Wins":{"bySets":[false,false,false],"total":false},"T2Wins":{"bySets":[false,false,false],"total":false},"T1Result":{"bySets":["-","2","-"],"total":"2"},"T2Result":{"total":"2","bySets":["-","2","-"]},"name":"Winners","type":"simple"}},"label":"Slice"}]}]}
+{
+	"statsTabs": [
+		{
+			"title": "Essential",
+			"groups": [
+				{
+					"counters": {
+						"DFCounter": {
+							"T1Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"4",
+									"3",
+									"-"
+								],
+								"total": "7"
+							},
+							"T2Result": {
+								"total": "5",
+								"bySets": [
+									"5",
+									"-",
+									"-"
+								]
+							},
+							"name": "Double faults",
+							"type": "simple"
+						},
+						"AceCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								],
+								"total": "1"
+							},
+							"T2Result": {
+								"total": "2",
+								"bySets": [
+									"2",
+									"-",
+									"-"
+								]
+							},
+							"name": "Aces",
+							"type": "simple"
+						},
+						"_1stServicePercentCounter": {
+							"T1Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"63%",
+									"69%",
+									"-"
+								],
+								"total": "67%"
+							},
+							"T2Result": {
+								"total": "63%",
+								"bySets": [
+									"50%",
+									"76%",
+									"-"
+								]
+							},
+							"name": "% 1st service",
+							"type": "percentage"
+						}
+					},
+					"label": "Service"
+				},
+				{
+					"counters": {
+						"AggressiveMarginCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-9",
+									"-6",
+									"-"
+								],
+								"total": "-15"
+							},
+							"T2Result": {
+								"total": "9",
+								"bySets": [
+									"6",
+									"3",
+									"-"
+								]
+							},
+							"name": "Aggressive margin",
+							"type": "simple"
+						},
+						"ErrorsUnforcedCounter": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										10,
+										12,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 22
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										4,
+										12,
+										0
+									],
+									"bh": [
+										2,
+										5,
+										0
+									]
+								},
+								"total": {
+									"bh": 7,
+									"fh": 16
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"14",
+									"15",
+									"-"
+								],
+								"total": "29"
+							},
+							"T2Result": {
+								"total": "28",
+								"bySets": [
+									"11",
+									"17",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"WinnerCounter": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										4,
+										5,
+										0
+									],
+									"bh": [
+										1,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 9
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										11,
+										7,
+										0
+									],
+									"bh": [
+										0,
+										1,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 18
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"5",
+									"6",
+									"-"
+								],
+								"total": "11"
+							},
+							"T2Result": {
+								"total": "21",
+								"bySets": [
+									"13",
+									"8",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						},
+						"TotalPointsWonCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"16",
+									"26",
+									"-"
+								],
+								"total": "42"
+							},
+							"T2Result": {
+								"total": "66",
+								"bySets": [
+									"31",
+									"35",
+									"-"
+								]
+							},
+							"name": "Total points won",
+							"type": "simple"
+						}
+					},
+					"label": "Points"
+				},
+				{
+					"counters": {
+						"NetPointsCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"3\/4",
+									"4\/7",
+									"-\/-"
+								],
+								"total": "7\/11"
+							},
+							"T2Result": {
+								"total": "15\/20",
+								"bySets": [
+									"9\/10",
+									"6\/10",
+									"-\/-"
+								]
+							},
+							"name": "Net points",
+							"type": "relation"
+						},
+						"_1stPtsWonCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"42%",
+									"59%",
+									"-"
+								],
+								"total": "53%"
+							},
+							"T2Result": {
+								"total": "75%",
+								"bySets": [
+									"79%",
+									"73%",
+									"-"
+								]
+							},
+							"name": "1st service pts won",
+							"type": "percentage"
+						},
+						"BreakPointsCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"1\/2",
+									"1\/2",
+									"-\/-"
+								],
+								"total": "2\/4"
+							},
+							"T2Result": {
+								"total": "5\/10",
+								"bySets": [
+									"3\/3",
+									"2\/7",
+									"-\/-"
+								]
+							},
+							"name": "Break points",
+							"type": "relation"
+						},
+						"ReceivingPtsWonCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"39%",
+									"34%",
+									"-"
+								],
+								"total": "37%"
+							},
+							"T2Result": {
+								"total": "59%",
+								"bySets": [
+									"74%",
+									"50%",
+									"-"
+								]
+							},
+							"name": "Receiving pts won",
+							"type": "percentage"
+						}
+					},
+					"label": "Conversion"
+				}
+			]
+		},
+		{
+			"title": "Detailed",
+			"groups": [
+				{
+					"counters": {
+						"LetCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Lets",
+							"type": "simple"
+						},
+						"_2ndServiceCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"3",
+									"7",
+									"-"
+								],
+								"total": "10"
+							},
+							"T2Result": {
+								"total": "16",
+								"bySets": [
+									"9",
+									"7",
+									"-"
+								]
+							},
+							"name": "2nd services",
+							"type": "simple"
+						},
+						"_1stServiceCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"12",
+									"22",
+									"-"
+								],
+								"total": "34"
+							},
+							"T2Result": {
+								"total": "36",
+								"bySets": [
+									"14",
+									"22",
+									"-"
+								]
+							},
+							"name": "1st services",
+							"type": "simple"
+						},
+						"DFCounter": {
+							"T1Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"4",
+									"3",
+									"-"
+								],
+								"total": "7"
+							},
+							"T2Result": {
+								"total": "5",
+								"bySets": [
+									"5",
+									"-",
+									"-"
+								]
+							},
+							"name": "Double faults",
+							"type": "simple"
+						},
+						"AceCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								],
+								"total": "1"
+							},
+							"T2Result": {
+								"total": "2",
+								"bySets": [
+									"2",
+									"-",
+									"-"
+								]
+							},
+							"name": "Aces",
+							"type": "simple"
+						},
+						"_1stServicePercentCounter": {
+							"T1Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"63%",
+									"69%",
+									"-"
+								],
+								"total": "67%"
+							},
+							"T2Result": {
+								"total": "63%",
+								"bySets": [
+									"50%",
+									"76%",
+									"-"
+								]
+							},
+							"name": "% 1st service",
+							"type": "percentage"
+						},
+						"ServicesCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"19",
+									"32",
+									"-"
+								],
+								"total": "51"
+							},
+							"T2Result": {
+								"total": "57",
+								"bySets": [
+									"28",
+									"29",
+									"-"
+								]
+							},
+							"name": "Total services",
+							"type": "simple"
+						}
+					},
+					"label": "Service"
+				},
+				{
+					"counters": {
+						"_2ndUnreturnedCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"3",
+									"2",
+									"-"
+								],
+								"total": "5"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Unreturned 2nd services",
+							"type": "simple"
+						},
+						"_1stUnreturnedCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"5",
+									"5",
+									"-"
+								],
+								"total": "10"
+							},
+							"T2Result": {
+								"total": "9",
+								"bySets": [
+									"2",
+									"7",
+									"-"
+								]
+							},
+							"name": "Unreturned 1st services",
+							"type": "simple"
+						},
+						"ReturnWinnersCounter": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Return winners",
+							"type": "simple"
+						},
+						"ReturnErrorsCounter": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										5,
+										7,
+										0
+									],
+									"bh": [
+										1,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 12
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										4,
+										0
+									],
+									"bh": [
+										1,
+										3,
+										0
+									]
+								},
+								"total": {
+									"bh": 4,
+									"fh": 5
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"6",
+									"7",
+									"-"
+								],
+								"total": "13"
+							},
+							"T2Result": {
+								"total": "9",
+								"bySets": [
+									"2",
+									"7",
+									"-"
+								]
+							},
+							"name": "Return errors",
+							"type": "simple"
+						}
+					},
+					"label": "Return"
+				},
+				{
+					"counters": {
+						"AggressiveMarginCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-9",
+									"-6",
+									"-"
+								],
+								"total": "-15"
+							},
+							"T2Result": {
+								"total": "9",
+								"bySets": [
+									"6",
+									"3",
+									"-"
+								]
+							},
+							"name": "Aggressive margin",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										3,
+										10,
+										0
+									],
+									"bh": [
+										1,
+										2,
+										0
+									]
+								},
+								"total": {
+									"bh": 3,
+									"fh": 13
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										2,
+										0
+									],
+									"bh": [
+										0,
+										1,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 2
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"4",
+									"12",
+									"-"
+								],
+								"total": "16"
+							},
+							"T2Result": {
+								"total": "3",
+								"bySets": [
+									"-",
+									"3",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"ErrorsUnforcedCounter": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										10,
+										12,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 22
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										4,
+										12,
+										0
+									],
+									"bh": [
+										2,
+										5,
+										0
+									]
+								},
+								"total": {
+									"bh": 7,
+									"fh": 16
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"14",
+									"15",
+									"-"
+								],
+								"total": "29"
+							},
+							"T2Result": {
+								"total": "28",
+								"bySets": [
+									"11",
+									"17",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"WinnerCounter": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										4,
+										5,
+										0
+									],
+									"bh": [
+										1,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 9
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										11,
+										7,
+										0
+									],
+									"bh": [
+										0,
+										1,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 18
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"5",
+									"6",
+									"-"
+								],
+								"total": "11"
+							},
+							"T2Result": {
+								"total": "21",
+								"bySets": [
+									"13",
+									"8",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						},
+						"TotalPointsWonCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"16",
+									"26",
+									"-"
+								],
+								"total": "42"
+							},
+							"T2Result": {
+								"total": "66",
+								"bySets": [
+									"31",
+									"35",
+									"-"
+								]
+							},
+							"name": "Total points won",
+							"type": "simple"
+						}
+					},
+					"label": "Points"
+				},
+				{
+					"counters": {
+						"ServeAndVolleyCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-\/-",
+									"-\/-",
+									"-\/-"
+								],
+								"total": "-\/-"
+							},
+							"T2Result": {
+								"total": "-\/-",
+								"bySets": [
+									"-\/-",
+									"-\/-",
+									"-\/-"
+								]
+							},
+							"name": "statsServeAndVolley",
+							"type": "relation"
+						},
+						"PassingShotCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"2\/2",
+									"2\/3",
+									"-\/-"
+								],
+								"total": "4\/5"
+							},
+							"T2Result": {
+								"total": "10\/11",
+								"bySets": [
+									"6\/6",
+									"4\/5",
+									"-\/-"
+								]
+							},
+							"name": "statsPassingShots",
+							"type": "relation"
+						},
+						"_2ndPtsWonCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"0%",
+									"43%",
+									"-"
+								],
+								"total": "30%"
+							},
+							"T2Result": {
+								"total": "56%",
+								"bySets": [
+									"67%",
+									"43%",
+									"-"
+								]
+							},
+							"name": "2nd service pts won",
+							"type": "percentage"
+						},
+						"_1stPtsWonCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"42%",
+									"59%",
+									"-"
+								],
+								"total": "53%"
+							},
+							"T2Result": {
+								"total": "75%",
+								"bySets": [
+									"79%",
+									"73%",
+									"-"
+								]
+							},
+							"name": "1st service pts won",
+							"type": "percentage"
+						},
+						"ApproachPointsCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-\/2",
+									"-\/-",
+									"-\/-"
+								],
+								"total": "-\/2"
+							},
+							"T2Result": {
+								"total": "-\/1",
+								"bySets": [
+									"-\/-",
+									"-\/1",
+									"-\/-"
+								]
+							},
+							"name": "Approach points",
+							"type": "relation"
+						},
+						"NetRollerCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-\/-",
+									"-\/-",
+									"-\/-"
+								],
+								"total": "-\/-"
+							},
+							"T2Result": {
+								"total": "-\/-",
+								"bySets": [
+									"-\/-",
+									"-\/-",
+									"-\/-"
+								]
+							},
+							"name": "statsNetRollers",
+							"type": "relation"
+						},
+						"NetPointsCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"3\/4",
+									"4\/7",
+									"-\/-"
+								],
+								"total": "7\/11"
+							},
+							"T2Result": {
+								"total": "15\/20",
+								"bySets": [
+									"9\/10",
+									"6\/10",
+									"-\/-"
+								]
+							},
+							"name": "Net points",
+							"type": "relation"
+						},
+						"BreakPointsCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"1\/2",
+									"1\/2",
+									"-\/-"
+								],
+								"total": "2\/4"
+							},
+							"T2Result": {
+								"total": "5\/10",
+								"bySets": [
+									"3\/3",
+									"2\/7",
+									"-\/-"
+								]
+							},
+							"name": "Break points",
+							"type": "relation"
+						},
+						"ReceivingPtsWonCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"39%",
+									"34%",
+									"-"
+								],
+								"total": "37%"
+							},
+							"T2Result": {
+								"total": "59%",
+								"bySets": [
+									"74%",
+									"50%",
+									"-"
+								]
+							},
+							"name": "Receiving pts won",
+							"type": "percentage"
+						}
+					},
+					"label": "Conversion"
+				},
+				{
+					"counters": {
+						"RallyLengthDuration_0_10": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"10",
+									"12",
+									"-"
+								],
+								"total": "22"
+							},
+							"T2Result": {
+								"total": "34",
+								"bySets": [
+									"17",
+									"17",
+									"-"
+								]
+							},
+							"name": "0''>10''",
+							"type": "simple"
+						},
+						"LongestRallyCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"00'22",
+									"00'20",
+									"00'00"
+								],
+								"total": "00'22"
+							},
+							"T2Result": {
+								"total": "00'39",
+								"bySets": [
+									"00'23",
+									"00'39",
+									"00'00"
+								]
+							},
+							"name": "Longest",
+							"type": "time"
+						},
+						"RallyLengthDuration_10_20": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"3",
+									"7",
+									"-"
+								],
+								"total": "10"
+							},
+							"T2Result": {
+								"total": "18",
+								"bySets": [
+									"9",
+									"9",
+									"-"
+								]
+							},
+							"name": "10''>20''",
+							"type": "simple"
+						},
+						"RallyLengthDuration_0_3": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"2",
+									"2",
+									"-"
+								],
+								"total": "4"
+							},
+							"T2Result": {
+								"total": "9",
+								"bySets": [
+									"5",
+									"4",
+									"-"
+								]
+							},
+							"name": "0''>3''",
+							"type": "simple"
+						},
+						"RallyLengthCounter_11_more": {
+							"T1Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"1",
+									"1",
+									"-"
+								],
+								"total": "2"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "10+ shots",
+							"type": "simple"
+						},
+						"RallyLengthCounter_00_01": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"11",
+									"10",
+									"-"
+								],
+								"total": "21"
+							},
+							"T2Result": {
+								"total": "30",
+								"bySets": [
+									"14",
+									"16",
+									"-"
+								]
+							},
+							"name": "0-1 shots",
+							"type": "simple"
+						},
+						"RallyLengthDuration_20_9223372036854775807": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"1",
+									"-",
+									"-"
+								],
+								"total": "1"
+							},
+							"T2Result": {
+								"total": "5",
+								"bySets": [
+									"1",
+									"4",
+									"-"
+								]
+							},
+							"name": ">20''",
+							"type": "simple"
+						},
+						"RallyLengthCounter_06_10": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"1",
+									"-",
+									"-"
+								],
+								"total": "1"
+							},
+							"T2Result": {
+								"total": "4",
+								"bySets": [
+									"2",
+									"2",
+									"-"
+								]
+							},
+							"name": "6-10 shots",
+							"type": "simple"
+						},
+						"WonRallyAvgCounter": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"00'08",
+									"00'06",
+									"00'00"
+								],
+								"total": "00'07"
+							},
+							"T2Result": {
+								"total": "00'08",
+								"bySets": [
+									"00'07",
+									"00'10",
+									"00'00"
+								]
+							},
+							"name": "Average",
+							"type": "time"
+						},
+						"RallyLengthCounter_02_05": {
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"8",
+									"-"
+								],
+								"total": "8"
+							},
+							"T2Result": {
+								"total": "16",
+								"bySets": [
+									"7",
+									"9",
+									"-"
+								]
+							},
+							"name": "2-5 shots",
+							"type": "simple"
+						}
+					},
+					"label": "Won rallies"
+				}
+			]
+		},
+		{
+			"title": "By shot",
+			"groups": [
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_GROUND": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										3,
+										6,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 9
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										2,
+										5,
+										0
+									],
+									"bh": [
+										0,
+										2,
+										0
+									]
+								},
+								"total": {
+									"bh": 2,
+									"fh": 7
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"3",
+									"6",
+									"-"
+								],
+								"total": "9"
+							},
+							"T2Result": {
+								"total": "9",
+								"bySets": [
+									"2",
+									"7",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_GROUND": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										4,
+										0
+									],
+									"bh": [
+										0,
+										2,
+										0
+									]
+								},
+								"total": {
+									"bh": 2,
+									"fh": 5
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"1",
+									"6",
+									"-"
+								],
+								"total": "7"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_GROUND": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										2,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 3
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 2
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"2",
+									"1",
+									"-"
+								],
+								"total": "3"
+							},
+							"T2Result": {
+								"total": "2",
+								"bySets": [
+									"1",
+									"1",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Ground stroke"
+				},
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_VOLLEY": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										2,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 2
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										2,
+										0
+									],
+									"bh": [
+										1,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 3
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"2",
+									"-",
+									"-"
+								],
+								"total": "2"
+							},
+							"T2Result": {
+								"total": "4",
+								"bySets": [
+									"2",
+									"2",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_VOLLEY": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										1,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								],
+								"total": "1"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_VOLLEY": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										4,
+										2,
+										0
+									],
+									"bh": [
+										0,
+										1,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 6
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								],
+								"total": "1"
+							},
+							"T2Result": {
+								"total": "7",
+								"bySets": [
+									"4",
+									"3",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Volley"
+				},
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_DROP_SHOT": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_DROP_SHOT": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_DROP_SHOT": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										2,
+										0
+									],
+									"bh": [
+										1,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 3
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										2,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 3
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"2",
+									"2",
+									"-"
+								],
+								"total": "4"
+							},
+							"T2Result": {
+								"total": "3",
+								"bySets": [
+									"2",
+									"1",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Drop-shot"
+				},
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_SMASH": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_SMASH": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_SMASH": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 2
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										3,
+										2,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 5
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"1",
+									"1",
+									"-"
+								],
+								"total": "2"
+							},
+							"T2Result": {
+								"total": "5",
+								"bySets": [
+									"3",
+									"2",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Smash"
+				},
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_LOB": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										2,
+										3,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 5
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"2",
+									"3",
+									"-"
+								],
+								"total": "5"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_LOB": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								],
+								"total": "1"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_LOB": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"1",
+									"-",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Lob"
+				}
+			]
+		},
+		{
+			"title": "By spin",
+			"groups": [
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_TOP_SPIN": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										1,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"1",
+									"-",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_TOP_SPIN": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_TOP_SPIN": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Top-spin"
+				},
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_DRIVE": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										10,
+										12,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 22
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										3,
+										11,
+										0
+									],
+									"bh": [
+										2,
+										5,
+										0
+									]
+								},
+								"total": {
+									"bh": 7,
+									"fh": 14
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									false,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"10",
+									"12",
+									"-"
+								],
+								"total": "22"
+							},
+							"T2Result": {
+								"total": "21",
+								"bySets": [
+									"5",
+									"16",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_DRIVE": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										3,
+										10,
+										0
+									],
+									"bh": [
+										1,
+										2,
+										0
+									]
+								},
+								"total": {
+									"bh": 3,
+									"fh": 13
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										2,
+										0
+									],
+									"bh": [
+										0,
+										1,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 2
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"4",
+									"12",
+									"-"
+								],
+								"total": "16"
+							},
+							"T2Result": {
+								"total": "3",
+								"bySets": [
+									"-",
+									"3",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_DRIVE": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										4,
+										3,
+										0
+									],
+									"bh": [
+										1,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 7
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										11,
+										6,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 17
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									true,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T1Result": {
+								"bySets": [
+									"5",
+									"3",
+									"-"
+								],
+								"total": "8"
+							},
+							"T2Result": {
+								"total": "17",
+								"bySets": [
+									"11",
+									"6",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Drive"
+				},
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_FLAT": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_FLAT": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_FLAT": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Flat"
+				},
+				{
+					"counters": {
+						"ErrorsUnforcedCounter_by_SLICE": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									true,
+									false
+								],
+								"total": true
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "1",
+								"bySets": [
+									"-",
+									"1",
+									"-"
+								]
+							},
+							"name": "Unforced errors",
+							"type": "simple"
+						},
+						"ErrorsForcedCounter_by_SLICE": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										0,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 0
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								],
+								"total": "-"
+							},
+							"T2Result": {
+								"total": "-",
+								"bySets": [
+									"-",
+									"-",
+									"-"
+								]
+							},
+							"name": "Forced errors",
+							"type": "simple"
+						},
+						"WinnerCounter_by_SLICE": {
+							"T1FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										2,
+										0
+									],
+									"bh": [
+										0,
+										0,
+										0
+									]
+								},
+								"total": {
+									"bh": 0,
+									"fh": 2
+								}
+							},
+							"T2FHBH": {
+								"bySets": {
+									"fh": [
+										0,
+										1,
+										0
+									],
+									"bh": [
+										0,
+										1,
+										0
+									]
+								},
+								"total": {
+									"bh": 1,
+									"fh": 1
+								}
+							},
+							"T1Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T2Wins": {
+								"bySets": [
+									false,
+									false,
+									false
+								],
+								"total": false
+							},
+							"T1Result": {
+								"bySets": [
+									"-",
+									"2",
+									"-"
+								],
+								"total": "2"
+							},
+							"T2Result": {
+								"total": "2",
+								"bySets": [
+									"-",
+									"2",
+									"-"
+								]
+							},
+							"name": "Winners",
+							"type": "simple"
+						}
+					},
+					"label": "Slice"
+				}
+			]
+		}
+	]
+}

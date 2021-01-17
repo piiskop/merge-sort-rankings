@@ -1,1 +1,67 @@
-{"scoreSnapshot":{"scoreT2":0,"scoreT1":0,"delayed":false,"setScores":[{"scoreT2":3,"scoreT1":8,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"cleanDuration":2727790,"gameScore":{"scoreT2":3,"scoreT1":1,"isTieBreak":false,"isComplete":false},"isComplete":true}],"matchResult":"T1_WON","gameScore":{"scoreT2":3,"scoreT1":1,"isTieBreak":false,"isComplete":false},"firstServeNow":["java.lang.Boolean",false],"t1ServesNow":["java.lang.Boolean",true]},"date":1450206972412,"t2p1":{"playerNote":"","firstName":"rainer","playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"sutt","playerLeague":"OTHER","favorite":false},"single":true,"t1p1":{"playerNote":"","firstName":"indrek","playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"pajuste","playerLeague":"OTHER","favorite":false},"rule":{"deuce":"REGULAR","name":"45 min","matchType":"LIMITED_TIME","amountOfSets":"BEST_OF_1","limitTime":"MAX_45_MINUTES"},"note":"A","surface":"HARD"}
+{
+	"scoreSnapshot": {
+		"scoreT2": 0,
+		"scoreT1": 0,
+		"delayed": false,
+		"setScores": [
+			{
+				"scoreT2": 3,
+				"scoreT1": 8,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"cleanDuration": 2727790,
+				"gameScore": {
+					"scoreT2": 3,
+					"scoreT1": 1,
+					"isTieBreak": false,
+					"isComplete": false
+				},
+				"isComplete": true
+			}
+		],
+		"matchResult": "T1_WON",
+		"gameScore": {
+			"scoreT2": 3,
+			"scoreT1": 1,
+			"isTieBreak": false,
+			"isComplete": false
+		},
+		"firstServeNow": [
+			"java.lang.Boolean",
+			false
+		],
+		"t1ServesNow": [
+			"java.lang.Boolean",
+			true
+		]
+	},
+	"date": 1450206972412,
+	"t2p1": {
+		"playerNote": "",
+		"firstName": "rainer",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "sutt",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"single": true,
+	"t1p1": {
+		"playerNote": "",
+		"firstName": "Indrek",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "Pajuste",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"rule": {
+		"deuce": "REGULAR",
+		"name": "45 min",
+		"matchType": "LIMITED_TIME",
+		"amountOfSets": "BEST_OF_1",
+		"limitTime": "MAX_45_MINUTES"
+	},
+	"note": "A",
+	"surface": "HARD"
+}

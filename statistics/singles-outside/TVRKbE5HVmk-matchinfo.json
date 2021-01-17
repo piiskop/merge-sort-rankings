@@ -1,1 +1,68 @@
-{"scoreSnapshot":{"scoreT2":0,"scoreT1":0,"t1ServesNow":["java.lang.Boolean",false],"setScores":[{"scoreT2":5,"scoreT1":5,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"isComplete":true,"gameScore":{"scoreT2":1,"scoreT1":3,"isTieBreak":false,"isComplete":false},"cleanDuration":1807187}],"matchResult":"T1_WON","gameScore":{"scoreT2":1,"scoreT1":3,"isTieBreak":false,"isComplete":false},"firstServeNow":["java.lang.Boolean",true],"delayed":false},"date":1567703790779,"t2p1":{"playerNote":"","firstName":"Illimar","playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"S\u00f6\u00f6t","playerLeague":"OTHER","favorite":false},"single":true,"t1p1":{"playerNote":"","firstName":"peacecop kalmer:","dateOfBirthday":260830800000,"playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"","playerLeague":"OTHER","favorite":false},"rule":{"deuce":"NO_AD","name":"30 min no ad","matchType":"LIMITED_TIME","amountOfSets":"BEST_OF_1","limitTime":"MAX_30_MINUTES"},"note":"seltskonnatennise \u00fcksikm\u00e4ngud: 28.06.2019, A2","surface":"CLAY"}
+{
+	"scoreSnapshot": {
+		"scoreT2": 0,
+		"scoreT1": 0,
+		"t1ServesNow": [
+			"java.lang.Boolean",
+			false
+		],
+		"setScores": [
+			{
+				"scoreT2": 5,
+				"scoreT1": 5,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"isComplete": true,
+				"gameScore": {
+					"scoreT2": 1,
+					"scoreT1": 3,
+					"isTieBreak": false,
+					"isComplete": false
+				},
+				"cleanDuration": 1807187
+			}
+		],
+		"matchResult": "T1_WON",
+		"gameScore": {
+			"scoreT2": 1,
+			"scoreT1": 3,
+			"isTieBreak": false,
+			"isComplete": false
+		},
+		"firstServeNow": [
+			"java.lang.Boolean",
+			true
+		],
+		"delayed": false
+	},
+	"date": 1567703790779,
+	"t2p1": {
+		"playerNote": "",
+		"firstName": "Illimar",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "S\u00f6\u00f6t",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"single": true,
+	"t1p1": {
+		"playerNote": "",
+		"firstName": "peacecop kalmer:",
+		"dateOfBirthday": 260830800000,
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"rule": {
+		"deuce": "NO_AD",
+		"name": "30 min no ad",
+		"matchType": "LIMITED_TIME",
+		"amountOfSets": "BEST_OF_1",
+		"limitTime": "MAX_30_MINUTES"
+	},
+	"note": "seltskonnatennise \u00fcksikm\u00e4ngud: 28.06.2019, A2",
+	"surface": "CLAY"
+}

@@ -1,1 +1,79 @@
-{"scoreSnapshot":{"scoreT2":2,"scoreT1":0,"delayed":false,"t1ServesNow":["java.lang.Boolean",true],"setScores":[{"scoreT2":6,"scoreT1":0,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"cleanDuration":0,"isComplete":true},{"scoreT2":6,"scoreT1":4,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"cleanDuration":1585022,"isComplete":true,"gameScore":{"scoreT2":5,"scoreT1":3,"isTieBreak":false,"isComplete":true}}],"matchResult":"T2_WON","gameScore":{"scoreT2":5,"scoreT1":3,"isTieBreak":false,"isComplete":true},"firstServeNow":["java.lang.Boolean",false]},"date":1470670644742,"t2p1":{"playerNote":"","firstName":"Kalmer","playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"Piiskop","playerLeague":"OTHER","favorite":false},"single":true,"t1p1":{"playerNote":"","firstName":"Oliver","playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"Kotkas","playerLeague":"OTHER","favorite":false},"rule":{"deuce":"REGULAR","name":"Rule Preset #10parem 3  2 game voit","matchType":"REGULAR","tieBreakServiceRotation":"ODD","lastSet":"SAME_AS_REGULAR_SET","firstToGames":"FIRST_TO_6","tieBreak":"NO_TB","tieBreakPoints":"UNDEFINED","amountOfSets":"BEST_OF_3"},"note":"","surface":"OTHER"}
+{
+	"scoreSnapshot": {
+		"scoreT2": 2,
+		"scoreT1": 0,
+		"delayed": false,
+		"t1ServesNow": [
+			"java.lang.Boolean",
+			true
+		],
+		"setScores": [
+			{
+				"scoreT2": 6,
+				"scoreT1": 0,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"cleanDuration": 0,
+				"isComplete": true
+			},
+			{
+				"scoreT2": 6,
+				"scoreT1": 4,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"cleanDuration": 1585022,
+				"isComplete": true,
+				"gameScore": {
+					"scoreT2": 5,
+					"scoreT1": 3,
+					"isTieBreak": false,
+					"isComplete": true
+				}
+			}
+		],
+		"matchResult": "T2_WON",
+		"gameScore": {
+			"scoreT2": 5,
+			"scoreT1": 3,
+			"isTieBreak": false,
+			"isComplete": true
+		},
+		"firstServeNow": [
+			"java.lang.Boolean",
+			false
+		]
+	},
+	"date": 1470670644742,
+	"t2p1": {
+		"playerNote": "",
+		"firstName": "peacecop kalmer:",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"single": true,
+	"t1p1": {
+		"playerNote": "",
+		"firstName": "Oliver",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "Kotkas",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"rule": {
+		"deuce": "REGULAR",
+		"name": "Rule Preset #10parem 3  2 game voit",
+		"matchType": "REGULAR",
+		"tieBreakServiceRotation": "ODD",
+		"lastSet": "SAME_AS_REGULAR_SET",
+		"firstToGames": "FIRST_TO_6",
+		"tieBreak": "NO_TB",
+		"tieBreakPoints": "UNDEFINED",
+		"amountOfSets": "BEST_OF_3"
+	},
+	"note": "",
+	"surface": "OTHER"
+}

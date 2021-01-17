@@ -1,1 +1,103 @@
-{"scoreSnapshot":{"scoreT2":2,"scoreT1":0,"t1ServesNow":["java.lang.Boolean",false],"setScores":[{"scoreT2":6,"scoreT1":2,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"isComplete":true,"gameScore":{"scoreT2":4,"scoreT1":0,"isTieBreak":false,"isComplete":true},"cleanDuration":1376151},{"scoreT2":6,"scoreT1":3,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"isComplete":true,"gameScore":{"scoreT2":4,"scoreT1":2,"isTieBreak":false,"isComplete":true},"cleanDuration":2043927}],"matchResult":"T2_WON","gameScore":{"scoreT2":4,"scoreT1":2,"isTieBreak":false,"isComplete":true},"firstServeNow":["java.lang.Boolean",true],"delayed":false},"t2p2":{"playerNote":"","firstName":"peacecop kalmer:","dateOfBirthday":260830800000,"playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"","playerLeague":"OTHER","favorite":false},"date":1537649593586,"t2p1":{"playerNote":"","firstName":"peacecop kalmer:","dateOfBirthday":260830800000,"playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"","playerLeague":"OTHER","favorite":false},"single":false,"t1p1":{"playerNote":"","firstName":"boris","playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"t\u0161ernjak","playerLeague":"OTHER","favorite":false},"rule":{"deuce":"REGULAR","name":"2 eduseti v\u00f5iduni","matchType":"REGULAR","tieBreakServiceRotation":"ODD","lastSet":"SAME_AS_REGULAR_SET","firstToGames":"FIRST_TO_6","tieBreak":"NO_TB","tieBreakPoints":"UNDEFINED","amountOfSets":"BEST_OF_3"},"t1p2":{"playerNote":"","firstName":"Marje","lastName":"Tammo","playerLeague":"OTHER","favorite":false},"note":"HaVaTeK 2018 V\u00e4gi\nT\n0827","surface":"GRASS"}
+{
+	"scoreSnapshot": {
+		"scoreT2": 2,
+		"scoreT1": 0,
+		"t1ServesNow": [
+			"java.lang.Boolean",
+			false
+		],
+		"setScores": [
+			{
+				"scoreT2": 6,
+				"scoreT1": 2,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"isComplete": true,
+				"gameScore": {
+					"scoreT2": 4,
+					"scoreT1": 0,
+					"isTieBreak": false,
+					"isComplete": true
+				},
+				"cleanDuration": 1376151
+			},
+			{
+				"scoreT2": 6,
+				"scoreT1": 3,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"isComplete": true,
+				"gameScore": {
+					"scoreT2": 4,
+					"scoreT1": 2,
+					"isTieBreak": false,
+					"isComplete": true
+				},
+				"cleanDuration": 2043927
+			}
+		],
+		"matchResult": "T2_WON",
+		"gameScore": {
+			"scoreT2": 4,
+			"scoreT1": 2,
+			"isTieBreak": false,
+			"isComplete": true
+		},
+		"firstServeNow": [
+			"java.lang.Boolean",
+			true
+		],
+		"delayed": false
+	},
+	"t2p2": {
+		"playerNote": "",
+		"firstName": "peacecop kalmer:",
+		"dateOfBirthday": 260830800000,
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"date": 1537649593586,
+	"t2p1": {
+		"playerNote": "",
+		"firstName": "Illimar",
+		"dateOfBirthday": 260830800000,
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "Sööt",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"single": false,
+	"t1p1": {
+		"playerNote": "",
+		"firstName": "Marje",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "Tammo",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"rule": {
+		"deuce": "REGULAR",
+		"name": "2 eduseti v\u00f5iduni",
+		"matchType": "REGULAR",
+		"tieBreakServiceRotation": "ODD",
+		"lastSet": "SAME_AS_REGULAR_SET",
+		"firstToGames": "FIRST_TO_6",
+		"tieBreak": "NO_TB",
+		"tieBreakPoints": "UNDEFINED",
+		"amountOfSets": "BEST_OF_3"
+	},
+	"t1p2": {
+		"playerNote": "",
+		"firstName": "boris",
+		"lastName": "tšernjak",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"note": "HaVaTeK 2018 V\u00e4gi\nT\n0827",
+	"surface": "GRASS"
+}

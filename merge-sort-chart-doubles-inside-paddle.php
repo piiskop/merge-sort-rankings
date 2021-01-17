@@ -19,33 +19,33 @@ $matches = array (
 	// 2016 - 5 mängu
 	// 10 - 5 mängu
 	array (
-		'winner' => 'boris + Heli',
-		'looser' => 'Helena + peacecop kalmer:',
+		'winner' => 'Heli + boris tšernjak',
+		'looser' => 'Helena Ruud + peacecop kalmer:',
 			'statistics'=> 'TVRJeVpqUmk'
 	),
 	array (
-		'winner' => 'illimar + riina',
-		'looser' => 'boris + kaie'
+		'winner' => 'Illimar Sööt + Riina Bachmann',
+		'looser' => 'Kaie Kree + boris tšernjak'
 	),
 	array (
-		'winner' => 'illimar + kaie',
-		'looser' => 'boris + riina'
+		'winner' => 'Illimar Sööt + Kaie Kree',
+		'looser' => 'Riina Bachmann + boris tšernjak'
 	),
 	array (
 		'winner' => 'Heli + peacecop kalmer:',
-		'looser' => 'helena + illimar'
+		'looser' => 'Helena Ruud + Illimar Sööt'
 	),
 	array (
-		'winner' => 'kaie + peacecop kalmer:',
-		'looser' => 'boris + helena'
+		'winner' => 'Kaie Kree + peacecop kalmer:',
+		'looser' => 'Helena Ruud + boris tšernjak'
 	),
 );
-
-$mergeSortChart = new MergeSortChart ();
 $metadataOfCurrentFile = pathinfo ( __FILE__ );
 preg_match ( '/merge-sort-chart-(.+)/', $metadataOfCurrentFile ['filename'], $foundMatches );
-$mergeSortChart->manageResults ( array (
+
+$mergeSortChart = new MergeSortChart ( array (
 		'matches' => $matches,
 		'typeOfTennis' => $foundMatches [1]
 ) );
-
+$mergeSortChart->manageResults ( array () );
+$mergeSortChart->checkNames ();

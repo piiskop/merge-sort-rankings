@@ -1,1 +1,95 @@
-{"scoreSnapshot":{"scoreT2":2,"scoreT1":0,"t1ServesNow":["java.lang.Boolean",false],"setScores":[{"scoreT2":6,"scoreT1":3,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"isComplete":true,"gameScore":{"scoreT2":4,"scoreT1":1,"isTieBreak":false,"isComplete":true},"cleanDuration":2231529},{"scoreT2":9,"scoreT1":7,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"isComplete":true,"gameScore":{"scoreT2":5,"scoreT1":3,"isTieBreak":false,"isComplete":true},"cleanDuration":3385529}],"matchResult":"T2_WON","gameScore":{"scoreT2":5,"scoreT1":3,"isTieBreak":false,"isComplete":true},"firstServeNow":["java.lang.Boolean",true],"delayed":false},"t2p2":{"playerNote":"","firstName":"Tiit","lastName":"Niibek","playerLeague":"OTHER","favorite":false},"date":1536161366995,"t2p1":{"playerNote":"","firstName":"Tiit","lastName":"Niibek","playerLeague":"OTHER","favorite":false},"single":false,"t1p1":{"playerNote":"","firstName":"Toivo","lastName":"Promm","playerLeague":"OTHER","favorite":false},"rule":{"deuce":"REGULAR","name":"2 eduseti v\u00f5iduni","matchType":"REGULAR","tieBreakServiceRotation":"ODD","lastSet":"SAME_AS_REGULAR_SET","firstToGames":"FIRST_TO_6","tieBreak":"NO_TB","tieBreakPoints":"UNDEFINED","amountOfSets":"BEST_OF_3"},"t1p2":{"playerNote":"","firstName":"Erki","lastName":"L\u00f5hmus","playerLeague":"OTHER","favorite":false},"note":"HaVaTeK 2018 V\u00e4gi\nT\n0905","surface":"GRASS"}
+{
+	"scoreSnapshot": {
+		"scoreT2": 2,
+		"scoreT1": 0,
+		"t1ServesNow": [
+			"java.lang.Boolean",
+			false
+		],
+		"setScores": [
+			{
+				"scoreT2": 6,
+				"scoreT1": 3,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"isComplete": true,
+				"gameScore": {
+					"scoreT2": 4,
+					"scoreT1": 1,
+					"isTieBreak": false,
+					"isComplete": true
+				},
+				"cleanDuration": 2231529
+			},
+			{
+				"scoreT2": 9,
+				"scoreT1": 7,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"isComplete": true,
+				"gameScore": {
+					"scoreT2": 5,
+					"scoreT1": 3,
+					"isTieBreak": false,
+					"isComplete": true
+				},
+				"cleanDuration": 3385529
+			}
+		],
+		"matchResult": "T2_WON",
+		"gameScore": {
+			"scoreT2": 5,
+			"scoreT1": 3,
+			"isTieBreak": false,
+			"isComplete": true
+		},
+		"firstServeNow": [
+			"java.lang.Boolean",
+			true
+		],
+		"delayed": false
+	},
+	"t2p2": {
+		"playerNote": "",
+		"firstName": "Tiit",
+		"lastName": "Niibek",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"date": 1536161366995,
+	"t2p1": {
+		"playerNote": "",
+		"firstName": "Merike",
+		"lastName": "Kosesson",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"single": false,
+	"t1p1": {
+		"playerNote": "",
+		"firstName": "Erki",
+		"lastName": "Lõhmus",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"rule": {
+		"deuce": "REGULAR",
+		"name": "2 eduseti v\u00f5iduni",
+		"matchType": "REGULAR",
+		"tieBreakServiceRotation": "ODD",
+		"lastSet": "SAME_AS_REGULAR_SET",
+		"firstToGames": "FIRST_TO_6",
+		"tieBreak": "NO_TB",
+		"tieBreakPoints": "UNDEFINED",
+		"amountOfSets": "BEST_OF_3"
+	},
+	"t1p2": {
+		"playerNote": "",
+		"firstName": "Toivo",
+		"lastName": "Promm",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"note": "HaVaTeK 2018 V\u00e4gi\nT\n0905",
+	"surface": "GRASS"
+}

@@ -1,1 +1,84 @@
-{"scoreSnapshot":{"scoreT2":0,"scoreT1":0,"delayed":false,"setScores":[{"scoreT2":4,"scoreT1":6,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"cleanDuration":2484548,"gameScore":{"scoreT2":2,"scoreT1":2,"isTieBreak":false,"isComplete":false},"isComplete":true}],"matchResult":"T1_WON","gameScore":{"scoreT2":2,"scoreT1":2,"isTieBreak":false,"isComplete":false},"firstServeNow":["java.lang.Boolean",false],"t1ServesNow":["java.lang.Boolean",true]},"t2p2":{"playerNote":"","firstName":"Helena","playerHanded":"RIGHTHANDED","playerSex":"FEMALE","lastName":"Ruud","playerLeague":"OTHER","favorite":false},"date":1418576723113,"t2p1":{"playerNote":"","firstName":"Helena","playerHanded":"RIGHTHANDED","playerSex":"FEMALE","lastName":"Ruud","playerLeague":"OTHER","favorite":false},"single":false,"t1p1":{"playerNote":"","firstName":"Riina","lastName":"Bachmann","playerLeague":"OTHER","favorite":false},"rule":{"deuce":"REGULAR","name":"45 min","matchType":"LIMITED_TIME","amountOfSets":"BEST_OF_1","limitTime":"MAX_45_MINUTES"},"t1p2":{"playerNote":"","firstName":"Roger","dateOfBirthday":366073200000,"playerHanded":"RIGHTHANDED","playerSex":"MALE","lastName":"Federer","playerLeague":"ATP","favorite":false},"note":"RAM 4, Harku MV","surface":"HARD"}
+{
+	"scoreSnapshot": {
+		"scoreT2": 0,
+		"scoreT1": 0,
+		"delayed": false,
+		"setScores": [
+			{
+				"scoreT2": 4,
+				"scoreT1": 6,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"cleanDuration": 2484548,
+				"gameScore": {
+					"scoreT2": 2,
+					"scoreT1": 2,
+					"isTieBreak": false,
+					"isComplete": false
+				},
+				"isComplete": true
+			}
+		],
+		"matchResult": "T1_WON",
+		"gameScore": {
+			"scoreT2": 2,
+			"scoreT1": 2,
+			"isTieBreak": false,
+			"isComplete": false
+		},
+		"firstServeNow": [
+			"java.lang.Boolean",
+			false
+		],
+		"t1ServesNow": [
+			"java.lang.Boolean",
+			true
+		]
+	},
+	"t2p2": {
+		"playerNote": "",
+		"firstName": "Helena",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "FEMALE",
+		"lastName": "Ruud",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"date": 1418576723113,
+	"t2p1": {
+		"playerNote": "",
+		"firstName": "Kaie",
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "FEMALE",
+		"lastName": "Kree",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"single": false,
+	"t1p1": {
+		"playerNote": "",
+		"firstName": "Riina",
+		"lastName": "Bachmann",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"rule": {
+		"deuce": "REGULAR",
+		"name": "45 min",
+		"matchType": "LIMITED_TIME",
+		"amountOfSets": "BEST_OF_1",
+		"limitTime": "MAX_45_MINUTES"
+	},
+	"t1p2": {
+		"playerNote": "",
+		"firstName": "Kaie",
+		"dateOfBirthday": 366073200000,
+		"playerHanded": "RIGHTHANDED",
+		"playerSex": "MALE",
+		"lastName": "Kree",
+		"playerLeague": "ATP",
+		"favorite": false
+	},
+	"note": "RAM 4, Harku MV",
+	"surface": "HARD"
+}

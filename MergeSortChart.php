@@ -58,7 +58,8 @@ class MergeSortChart {
 	 * @var string[string] the array of links to statistics
 	 */
 	private $statistics = array ();
-
+	private $matches = array ();
+	private $typeOfTennis;
 	/**
 	 * This function sorts an array according to the given index.
 	 *
@@ -303,21 +304,6 @@ class MergeSortChart {
 	 *
 	 * @access public
 	 * @author kalmer
-	 * @param string[string[int]] $parameters['matches']
-	 *        	the matches where the
-	 *        	index is <code>winner</code> or <code>looser</code> and the value
-	 *        	is the name of either winner or looser
-	 * @param string $parameters['typeOfTennis']
-	 *        	the type of tennis:<ul><li><code>doubles-inside</code></li>
-	 *        	<li><code>doubles-inside-paddle</code></li>
-	 *        	<li><code>doubles-outside</code></li>
-	 *        	<li><code>doubles-outside-paddle</code></li>
-	 *        	<li><code>doubles-outside-sponge</code></li>
-	 *        	<li><code>singles-inside</code></li>
-	 *        	<li><code>singles-inside-paddle</code></li>
-	 *        	<li><code>singles-outside</code></li>
-	 *        	<li><code>singles-outside-paddle</code></li>
-	 *        	<li><code>singles-outside-sponge</code></li></ul>
 	 */
 	public function manageResults($parameters) {
 		// setting the timestamp once the program starts
@@ -325,7 +311,7 @@ class MergeSortChart {
 		// initializing the counter for the total number of matches played
 		$totalNumberOfMatchesPlayed = 0;
 		// for each match result
-		foreach ( $parameters ['matches'] as $match ) {
+		foreach ( $this->matches as $match ) {
 			/*
 			 * If there is an entry for the winner increment
 			 * the number of matches played and wins
@@ -353,7 +339,8 @@ class MergeSortChart {
 			 */
 			$this->addStatistics ( array (
 					'match' => $match,
-					'player' => $match ['winner']
+					'player' => $match ['winner'],
+					'typeOfTennis' => $this->typeOfTennis
 			) );
 			/*
 			 * manage all the cases where the winner has previously lost to
@@ -378,7 +365,8 @@ class MergeSortChart {
 			// Setting the number of matches having statistics for this looser
 			$this->addStatistics ( array (
 					'match' => $match,
-					'player' => $match ['looser']
+					'player' => $match ['looser'],
+					'typeOfTennis' => $this->typeOfTennis
 			) );
 			// insert the list of the winner to the winners' list of the looser
 			$this->results [$match ['looser']] ['winners'] [$match ['winner']] = $this->results [$match ['winner']];
@@ -426,45 +414,47 @@ class MergeSortChart {
 		);
 		foreach ( $this->statistics as $identifier ) {
 			foreach ( $typesOfStatistics as $typeOfStatistics ) {
-// 				$identifier = 'TVRNeU1HUXg';
-				// @formatter:off
-				$urlLog = sprintf(
-					'https://app.tennis-math.com/%1$s/%2$s',
-					$typeOfStatistics, // 1
-					$identifier // 2
-				);
-				// @formatter:on
-				$ch = curl_init ();
-				// IMPORTANT: the below line is a security risk, read https://paragonie.com/blog/2017/10/certainty-automated-cacert-pem-management-for-php-software
-				// in most cases, you should set it to true
-				curl_setopt ( $ch, CURLOPT_SSL_VERIFYPEER, false );
-				curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
-				curl_setopt ( $ch, CURLOPT_URL, $urlLog );
-				curl_setopt ( $ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)' );
-				$contentsLog = curl_exec ( $ch );
-				if (curl_errno ( $ch )) {
-					die ( 'Curl error: ' . curl_error ( $ch ) );
-				}
-				curl_close ( $ch );
-				$log = json_decode ( iconv ( 'UTF-8', 'UTF-8//IGNORE', utf8_encode ( $contentsLog ) ) );
+				// $identifier = 'TVRNeU1HUXg';
 				// @formatter:off
 				$pathToFolder = sprintf(
 					'%1$s/statistics/%2$s/',
 					__DIR__, // 1
-					$parameters['typeOfTennis'] // 2
+					$this->typeOfTennis // 2
 				);
-				// @formatter:on
-				if (! is_dir ( $pathToFolder )) {
-					mkdir ( $pathToFolder, 0770, true );
-				}
-				// @formatter:off
-				file_put_contents ( sprintf (
+				$nameOfFile = sprintf (
 					'%1$s%2$s-%3$s.json',
 					$pathToFolder, // 1
 					$identifier, // 2
 					$typeOfStatistics // 3
-				), json_encode ( $log ) );
+				);
 				// @formatter:on
+				if (! file_exists ( $nameOfFile )) {
+
+					if (! is_dir ( $pathToFolder )) {
+						mkdir ( $pathToFolder, 0775, true );
+					}
+					// @formatter:off
+					$urlLog = sprintf(
+						'https://app.tennis-math.com/%1$s/%2$s',
+						$typeOfStatistics, // 1
+						$identifier // 2
+					);
+					// @formatter:on
+					$ch = curl_init ();
+					// IMPORTANT: the below line is a security risk, read https://paragonie.com/blog/2017/10/certainty-automated-cacert-pem-management-for-php-software
+					// in most cases, you should set it to true
+					curl_setopt ( $ch, CURLOPT_SSL_VERIFYPEER, false );
+					curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, true );
+					curl_setopt ( $ch, CURLOPT_URL, $urlLog );
+					curl_setopt ( $ch, CURLOPT_USERAGENT, 'Mozilla/4.0 (compatible; MSIE 5.01; Windows NT 5.0)' );
+					$contentsLog = curl_exec ( $ch );
+					if (curl_errno ( $ch )) {
+						die ( 'Curl error: ' . curl_error ( $ch ) );
+					}
+					curl_close ( $ch );
+					$log = json_decode ( iconv ( 'UTF-8', 'UTF-8//IGNORE', utf8_encode ( $contentsLog ) ) );
+					file_put_contents ( $nameOfFile, json_encode ( $log ) );
+				}
 			}
 		}
 		echo "\nLevel\tPlayer\tNumber of matches played\tNumber of wins\tNumber of matches with statistics";
@@ -511,6 +501,17 @@ class MergeSortChart {
 	 *        	and eventually the link to the statistics
 	 * @param string $parameters['player']
 	 *        	the name of the player
+	 * @param string $parameters['typeOfTennis']
+	 *        	the type of tennis:<ul><li><code>doubles-inside</code></li>
+	 *        	<li><code>doubles-inside-paddle</code></li>
+	 *        	<li><code>doubles-outside</code></li>
+	 *        	<li><code>doubles-outside-paddle</code></li>
+	 *        	<li><code>doubles-outside-sponge</code></li>
+	 *        	<li><code>singles-inside</code></li>
+	 *        	<li><code>singles-inside-paddle</code></li>
+	 *        	<li><code>singles-outside</code></li>
+	 *        	<li><code>singles-outside-paddle</code></li>
+	 *        	<li><code>singles-outside-sponge</code></li></ul>
 	 */
 	private function addStatistics($parameters) {
 		if (isset ( $parameters ['match'] ['statistics'] )) {
@@ -520,6 +521,163 @@ class MergeSortChart {
 				$this->results [$parameters ['player']] ['numberOfMatchesWithStatistics'] = 1;
 			}
 			$this->statistics [$parameters ['match'] ['statistics']] = $parameters ['match'] ['statistics'];
+			// @formatter:off
+			$pathToFile = sprintf(
+				'%1$s/statistics/%2$s/%3$s-statistics.json',
+				__DIR__, // 1
+				$parameters['typeOfTennis'], // 2
+				$parameters['match']['statistics'] // 3
+			);
+			$content = file_get_contents($pathToFile);
+			$jsonContent=json_decode($content);
+// 			print_r ($jsonContent);exit;
+			// @formatter:on
+			if (isset ( $this->results [$parameters ['player']] ['efficiency'] )) {
+				$this->results [$parameters ['player']] ['efficiency'];
+			} else {
+				// $this->results [$parameters ['player']] ['efficiency'];
+			}
 		}
+	}
+	/**
+	 *
+	 * @param string[string[int]] $parameters['matches']
+	 *        	the matches where the
+	 *        	index is <code>winner</code> or <code>looser</code> and the value
+	 *        	is the name of either winner or looser
+	 * @param string $parameters['typeOfTennis']
+	 *        	the type of tennis:<ul><li><code>doubles-inside</code></li>
+	 *        	<li><code>doubles-inside-paddle</code></li>
+	 *        	<li><code>doubles-outside</code></li>
+	 *        	<li><code>doubles-outside-paddle</code></li>
+	 *        	<li><code>doubles-outside-sponge</code></li>
+	 *        	<li><code>singles-inside</code></li>
+	 *        	<li><code>singles-inside-paddle</code></li>
+	 *        	<li><code>singles-outside</code></li>
+	 *        	<li><code>singles-outside-paddle</code></li>
+	 *        	<li><code>singles-outside-sponge</code></li></ul>
+	 */
+	public function __construct($parameters) {
+		$this->matches = $parameters ['matches'];
+		$this->typeOfTennis = $parameters ['typeOfTennis'];
+	}
+	/**
+	 * This function checks whether the names are correct.
+	 */
+	public function checkNames() {
+		// @formatter:off
+		$pathToFolder = sprintf(
+				'%1$s/statistics/%2$s/',
+				__DIR__, // 1
+				$this->typeOfTennis // 2
+				);
+		$incorrectNames=array();
+		// @formatter:on
+		foreach ( $this->matches as $matchInMyArray ) {
+			if (isset ( $matchInMyArray ['statistics'] )) {
+				// @formatter:off
+				$nameOfFile = sprintf (
+						'%1$s%2$s-matchinfo.json',
+						$pathToFolder, // 1
+						$matchInMyArray['statistics']// 2
+						);
+				// @formatter:on
+				$contentsMain = file_get_contents ( $nameOfFile );
+				$matchInTennisMath = json_decode ( $contentsMain );
+				if (isset ( $matchInTennisMath->t1p2 )) {
+					// @formatter:off
+					/*
+					 * replace unicode codes that are used
+					 * for non-latin characters
+					 */ 
+					$player1InTennisMath = html_entity_decode(preg_replace('/\\\u([\da-f]{4})/', '&#x\1;', sprintf(
+							'%1$s + %2$s',
+							trim(sprintf(
+									'%1$s %2$s',
+									$matchInTennisMath->t1p1->firstName, // 1
+									$matchInTennisMath->t1p1->lastName // 2
+									)),
+							trim(sprintf(
+									'%1$s %2$s',
+									$matchInTennisMath->t1p2->firstName, // 1
+									$matchInTennisMath->t1p2->lastName // 2
+									)),
+							)));
+					if(!isset($matchInTennisMath->t2p1)){
+						echo ' 597: puudu teise mängija nimi: ', $matchInMyArray['statistics'], "\n";
+					}
+					$player1InTeam2InTennisMath = trim(sprintf(
+							'%1$s %2$s',
+							$matchInTennisMath->t2p1->firstName, // 1
+							$matchInTennisMath->t2p1->lastName // 2
+							));
+					$player2InTeam2InTennisMath = trim(sprintf(
+							'%1$s %2$s',
+							$matchInTennisMath->t2p2->firstName, // 1
+							$matchInTennisMath->t2p2->lastName // 2
+							));
+					$player2InTennisMath = html_entity_decode(preg_replace('/\\\u([\da-f]{4})/', '&#x\1;', sprintf(
+							'%1$s + %2$s',
+							trim(sprintf(
+								'%1$s %2$s',
+								$matchInTennisMath->t2p1->firstName, // 1
+								$matchInTennisMath->t2p1->lastName // 2
+							)),
+							trim(sprintf(
+									'%1$s %2$s',
+									$matchInTennisMath->t2p2->firstName, // 1
+									$matchInTennisMath->t2p2->lastName // 2
+									)),
+							)));
+					// @formatter:on
+					if ($player1InTeam2InTennisMath === $player2InTeam2InTennisMath && $player2InTennisMath !== $matchInMyArray ['winner'] && $player2InTennisMath !== $matchInMyArray ['looser']) {
+						// @formatter:off
+						if ($player1InTennisMath === $matchInMyArray ['winner'] || $player1InTennisMath === sprintf(
+								'%1$s + %2$s',
+								explode ( ' + ', $matchInMyArray ['winner'] ) [1], // 1
+								explode ( ' + ', $matchInMyArray ['winner'] ) [0], // 2
+							)) {
+						// @formatter:on
+							echo "\n 635 ";
+							$matchInTennisMath->t2p1->firstName = explode ( ' + ', $matchInMyArray ['looser'] ) [0];
+							$matchInTennisMath->t2p2->firstName = explode ( ' + ', $matchInMyArray ['looser'] ) [1];
+						} else {
+							echo "\n 638 ";
+							$matchInTennisMath->t2p1->firstName = explode ( ' + ', $matchInMyArray ['winner'] ) [0];
+							$matchInTennisMath->t2p2->firstName = explode ( ' + ', $matchInMyArray ['winner'] ) [1];
+						}
+						$matchInTennisMath->t2p1->lastName = '';
+						$matchInTennisMath->t2p2->lastName = '';
+						// $nameOfFile = $pathToFolder . 'test.json';
+						file_put_contents ( $nameOfFile, json_encode ( $matchInTennisMath ) );
+					}
+				} else {
+					// @formatter:off
+					$player1InTennisMath = html_entity_decode(preg_replace('/\\\u([\da-f]{4})/', '&#x\1;', trim(sprintf(
+							'%1$s %2$s',
+							$matchInTennisMath->t1p1->firstName, // 1
+							$matchInTennisMath->t1p1->lastName // 2
+							))));
+					$player2InTennisMath = html_entity_decode(preg_replace('/\\\u([\da-f]{4})/', '&#x\1;', trim(sprintf(
+							'%1$s %2$s',
+							$matchInTennisMath->t2p1->firstName, // 1
+							$matchInTennisMath->t2p1->lastName // 2
+							))));
+					// @formatter:on
+				}
+				if ($matchInMyArray ['winner'] !== $player1InTennisMath && $matchInMyArray ['winner'] !== $player2InTennisMath && $matchInMyArray ['looser'] !== $player1InTennisMath && $matchInMyArray ['looser'] !== $player2InTennisMath) {
+					$incorrectNames [$matchInMyArray ['winner']] = array (
+							'myName' => $matchInMyArray ['winner'],
+							'player1InTennisMath' => $player1InTennisMath,
+							'player2InTennisMath' => $player2InTennisMath,
+							'identifier' => $matchInMyArray ['statistics'],
+							'timestamp' => date ( 'Y-m-d H:i:s', $matchInTennisMath->date / 1000 )
+					);
+				}
+			}
+		}
+		echo ' <br/> 625: <pre>';
+		var_dump ( $incorrectNames );
+		echo "</pre>\n";
 	}
 }

@@ -1,1 +1,77 @@
-{"scoreSnapshot":{"scoreT2":0,"scoreT1":0,"t1ServesNow":["java.lang.Boolean",false],"setScores":[{"scoreT2":16,"scoreT1":7,"tieBreakHasBeenPlayed":false,"isMatchTieBreak":false,"isComplete":true,"gameScore":{"scoreT2":2,"scoreT1":2,"isTieBreak":false,"isComplete":false},"cleanDuration":5513151}],"matchResult":"T2_WON","gameScore":{"scoreT2":2,"scoreT1":2,"isTieBreak":false,"isComplete":false},"firstServeNow":["java.lang.Boolean",true],"delayed":false},"t2p2":{"playerNote":"","firstName":"Toivo","lastName":"Promm","playerLeague":"OTHER","favorite":false},"date":1534692296678,"t2p1":{"playerNote":"","firstName":"Toivo","lastName":"Promm","playerLeague":"OTHER","favorite":false},"single":false,"t1p1":{"playerNote":"","firstName":"Per","lastName":"Lindberg","playerLeague":"OTHER","favorite":false},"rule":{"deuce":"REGULAR","name":"75 minutit","matchType":"LIMITED_TIME","amountOfSets":"BEST_OF_1","limitTime":"MAX_90_MINUTES"},"t1p2":{"playerNote":"","firstName":"Salonplusi Helena","lastName":"","playerLeague":"OTHER","favorite":false},"note":"HaVaTeK 2018 V\u00e4gi\nA1\n0819","surface":"CLAY"}
+{
+	"scoreSnapshot": {
+		"scoreT2": 0,
+		"scoreT1": 0,
+		"t1ServesNow": [
+			"java.lang.Boolean",
+			false
+		],
+		"setScores": [
+			{
+				"scoreT2": 16,
+				"scoreT1": 7,
+				"tieBreakHasBeenPlayed": false,
+				"isMatchTieBreak": false,
+				"isComplete": true,
+				"gameScore": {
+					"scoreT2": 2,
+					"scoreT1": 2,
+					"isTieBreak": false,
+					"isComplete": false
+				},
+				"cleanDuration": 5513151
+			}
+		],
+		"matchResult": "T2_WON",
+		"gameScore": {
+			"scoreT2": 2,
+			"scoreT1": 2,
+			"isTieBreak": false,
+			"isComplete": false
+		},
+		"firstServeNow": [
+			"java.lang.Boolean",
+			true
+		],
+		"delayed": false
+	},
+	"t2p2": {
+		"playerNote": "",
+		"firstName": "Toivo",
+		"lastName": "Promm",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"date": 1534692296678,
+	"t2p1": {
+		"playerNote": "",
+		"firstName": "Erki",
+		"lastName": "Lõhmus",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"single": false,
+	"t1p1": {
+		"playerNote": "",
+		"firstName": "Salonplusi Helena",
+		"lastName": "",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"rule": {
+		"deuce": "REGULAR",
+		"name": "75 minutit",
+		"matchType": "LIMITED_TIME",
+		"amountOfSets": "BEST_OF_1",
+		"limitTime": "MAX_90_MINUTES"
+	},
+	"t1p2": {
+		"playerNote": "",
+		"firstName": "per",
+		"lastName": "lindberg",
+		"playerLeague": "OTHER",
+		"favorite": false
+	},
+	"note": "HaVaTeK 2018 V\u00e4gi\nA1\n0819",
+	"surface": "CLAY"
+}

@@ -19,24 +19,24 @@ $matches = array (
 		// 2014 - 3 mängu
 		// 7 - 3 mängu
 		array (
-				'winner' => 'Ahto',
-				'looser' => 'Illimar'
+				'winner' => 'Ahto Klaos',
+				'looser' => 'Illimar Sööt'
 		),
 		array (
-				'winner' => 'Ahto',
-				'looser' => 'Riina'
+				'winner' => 'Ahto Klaos',
+				'looser' => 'Riina Bachmann'
 		),
 		array (
-				'winner' => 'Riina',
-				'looser' => 'Illimar'
+				'winner' => 'Riina Bachmann',
+				'looser' => 'Illimar Sööt'
 		),
 );
-
-$mergeSortChart = new MergeSortChart ();
 $metadataOfCurrentFile = pathinfo ( __FILE__ );
 preg_match ( '/merge-sort-chart-(.+)/', $metadataOfCurrentFile ['filename'], $foundMatches );
-$mergeSortChart->manageResults ( array (
+
+$mergeSortChart = new MergeSortChart ( array (
 		'matches' => $matches,
 		'typeOfTennis' => $foundMatches [1]
 ) );
-
+$mergeSortChart->manageResults ( array () );
+$mergeSortChart->checkNames ();
